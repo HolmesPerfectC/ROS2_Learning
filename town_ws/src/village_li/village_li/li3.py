@@ -7,7 +7,7 @@ class BaiPiaoNdoe(Node):
     def __init__(self, name):
         super().__init__(name)
         
-        self.get_logger().info("Hello everybody! I'm BaiPiaoguai %s! " % name)
+        self.get_logger().info("Hello everybody! I'm BaiPiaoguai %s! I'm so exciting! " % name)
         sub_baipiao = self.create_subscription(String, "sexy_girl", self.baipiao_callback, 10)
 
 
