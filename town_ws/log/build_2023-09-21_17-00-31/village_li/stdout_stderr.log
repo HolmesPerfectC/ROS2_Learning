@@ -1,0 +1,29 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+writing ../../build/village_li/village_li.egg-info/PKG-INFO
+writing dependency_links to ../../build/village_li/village_li.egg-info/dependency_links.txt
+writing entry points to ../../build/village_li/village_li.egg-info/entry_points.txt
+writing requirements to ../../build/village_li/village_li.egg-info/requires.txt
+writing top-level names to ../../build/village_li/village_li.egg-info/top_level.txt
+reading manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+writing manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+running build
+running build_py
+copying village_li/li4_pop.py -> /home/wuling/hpc/ros2_learn/town_ws/build/village_li/build/lib/village_li
+copying village_li/li4.py -> /home/wuling/hpc/ros2_learn/town_ws/build/village_li/build/lib/village_li
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+copying /home/wuling/hpc/ros2_learn/town_ws/build/village_li/build/lib/village_li/li4_pop.py -> /home/wuling/hpc/ros2_learn/town_ws/install/village_li/lib/python3.10/site-packages/village_li
+copying /home/wuling/hpc/ros2_learn/town_ws/build/village_li/build/lib/village_li/li4.py -> /home/wuling/hpc/ros2_learn/town_ws/install/village_li/lib/python3.10/site-packages/village_li
+byte-compiling /home/wuling/hpc/ros2_learn/town_ws/install/village_li/lib/python3.10/site-packages/village_li/li4_pop.py to li4_pop.cpython-310.pyc
+byte-compiling /home/wuling/hpc/ros2_learn/town_ws/install/village_li/lib/python3.10/site-packages/village_li/li4.py to li4.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/wuling/hpc/ros2_learn/town_ws/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/village_li/village_li.egg-info to /home/wuling/hpc/ros2_learn/town_ws/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info
+running install_scripts
+Installing li4_node script to /home/wuling/hpc/ros2_learn/town_ws/install/village_li/lib/village_li
+writing list of installed files to '/home/wuling/hpc/ros2_learn/town_ws/build/village_li/install.log'

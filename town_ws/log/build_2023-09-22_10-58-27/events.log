@@ -1,0 +1,80 @@
+[0.000000] (-) TimerEvent: {}
+[0.000145] (-) JobUnselected: {'identifier': 'village_li'}
+[0.000164] (village_wang) JobQueued: {'identifier': 'village_wang', 'dependencies': OrderedDict()}
+[0.000329] (village_wang) JobStarted: {'identifier': 'village_wang'}
+[0.006939] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'cmake'}
+[0.007230] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'build'}
+[0.007712] (village_wang) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wuling/hpc/ros2_learn/town_ws/build/village_wang', '--', '-j24', '-l24'], 'cwd': '/home/wuling/hpc/ros2_learn/town_ws/build/village_wang', 'env': OrderedDict([('HOSTNAME', '4a4d562adab6'), ('GIT_ASKPASS', '/home/wuling/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/wuling/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/helpers/browser.sh'), ('HOME', '/home/wuling'), ('OLDPWD', '/home/wuling/hpc/ros2_learn'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-974a4892-7b0a-44c8-9afc-049574cf0ac2.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/wuling/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/wuling/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/node'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/wuling/hpc/ros2_learn/town_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-802ac95e-5ee0-42c9-963b-9d05c9427207.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/home/wuling/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-802ac95e-5ee0-42c9-963b-9d05c9427207.sock","/tmp/.X11-unix/X2","/home/wuling/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/tmp/.dockera4kwktau.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-73f78f9b91.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-802ac95e-5ee0-42c9-963b-9d05c9427207.sock'), ('AMENT_PREFIX_PATH', '/home/wuling/hpc/ros2_learn/town_ws/install/village_wang:/home/wuling/hpc/ros2_learn/town_ws/install/village_li:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X2'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/wuling/hpc/ros2_learn/town_ws/build/village_wang'), ('PYTHONPATH', '/home/wuling/hpc/ros2_learn/town_ws/install/village_li/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/wuling/hpc/ros2_learn/town_ws/install/village_wang:/home/wuling/hpc/ros2_learn/town_ws/install/village_li:/opt/ros/humble')]), 'shell': False}
+[0.042043] (village_wang) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o\x1b[0m\n'}
+[0.099824] (-) TimerEvent: {}
+[0.200038] (-) TimerEvent: {}
+[0.300267] (-) TimerEvent: {}
+[0.400505] (-) TimerEvent: {}
+[0.500721] (-) TimerEvent: {}
+[0.600942] (-) TimerEvent: {}
+[0.701164] (-) TimerEvent: {}
+[0.801414] (-) TimerEvent: {}
+[0.901647] (-) TimerEvent: {}
+[1.001864] (-) TimerEvent: {}
+[1.102050] (-) TimerEvent: {}
+[1.202279] (-) TimerEvent: {}
+[1.302499] (-) TimerEvent: {}
+[1.402715] (-) TimerEvent: {}
+[1.502935] (-) TimerEvent: {}
+[1.603154] (-) TimerEvent: {}
+[1.703379] (-) TimerEvent: {}
+[1.803648] (-) TimerEvent: {}
+[1.903885] (-) TimerEvent: {}
+[2.004103] (-) TimerEvent: {}
+[2.104368] (-) TimerEvent: {}
+[2.204599] (-) TimerEvent: {}
+[2.304832] (-) TimerEvent: {}
+[2.405095] (-) TimerEvent: {}
+[2.505338] (-) TimerEvent: {}
+[2.605618] (-) TimerEvent: {}
+[2.705880] (-) TimerEvent: {}
+[2.806086] (-) TimerEvent: {}
+[2.906344] (-) TimerEvent: {}
+[3.006576] (-) TimerEvent: {}
+[3.106802] (-) TimerEvent: {}
+[3.207038] (-) TimerEvent: {}
+[3.307264] (-) TimerEvent: {}
+[3.407487] (-) TimerEvent: {}
+[3.507707] (-) TimerEvent: {}
+[3.607942] (-) TimerEvent: {}
+[3.708162] (-) TimerEvent: {}
+[3.808390] (-) TimerEvent: {}
+[3.908604] (-) TimerEvent: {}
+[4.008831] (-) TimerEvent: {}
+[4.109067] (-) TimerEvent: {}
+[4.209283] (-) TimerEvent: {}
+[4.309497] (-) TimerEvent: {}
+[4.409719] (-) TimerEvent: {}
+[4.442176] (village_wang) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable wang2_node\x1b[0m\n'}
+[4.509834] (-) TimerEvent: {}
+[4.610150] (-) TimerEvent: {}
+[4.639557] (village_wang) StdoutLine: {'line': b'[100%] Built target wang2_node\n'}
+[4.644675] (village_wang) CommandEnded: {'returncode': 0}
+[4.655303] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'install'}
+[4.660745] (village_wang) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wuling/hpc/ros2_learn/town_ws/build/village_wang'], 'cwd': '/home/wuling/hpc/ros2_learn/town_ws/build/village_wang', 'env': OrderedDict([('HOSTNAME', '4a4d562adab6'), ('GIT_ASKPASS', '/home/wuling/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/wuling/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/helpers/browser.sh'), ('HOME', '/home/wuling'), ('OLDPWD', '/home/wuling/hpc/ros2_learn'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-974a4892-7b0a-44c8-9afc-049574cf0ac2.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/wuling/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/wuling/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/node'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/wuling/hpc/ros2_learn/town_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-802ac95e-5ee0-42c9-963b-9d05c9427207.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/home/wuling/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-802ac95e-5ee0-42c9-963b-9d05c9427207.sock","/tmp/.X11-unix/X2","/home/wuling/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/tmp/.dockera4kwktau.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-73f78f9b91.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-802ac95e-5ee0-42c9-963b-9d05c9427207.sock'), ('AMENT_PREFIX_PATH', '/home/wuling/hpc/ros2_learn/town_ws/install/village_wang:/home/wuling/hpc/ros2_learn/town_ws/install/village_li:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X2'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/wuling/hpc/ros2_learn/town_ws/build/village_wang'), ('PYTHONPATH', '/home/wuling/hpc/ros2_learn/town_ws/install/village_li/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/wuling/hpc/ros2_learn/town_ws/install/village_wang:/home/wuling/hpc/ros2_learn/town_ws/install/village_li:/opt/ros/humble')]), 'shell': False}
+[4.664658] (village_wang) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.664783] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang\n'}
+[4.664825] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang\n'}
+[4.664860] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh\n'}
+[4.664896] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv\n'}
+[4.664988] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/environment/path.sh\n'}
+[4.665024] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/environment/path.dsv\n'}
+[4.665063] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/local_setup.bash\n'}
+[4.665095] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/local_setup.sh\n'}
+[4.665127] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/local_setup.zsh\n'}
+[4.665158] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/local_setup.dsv\n'}
+[4.665190] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/package.dsv\n'}
+[4.665221] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/ament_index/resource_index/packages/village_wang\n'}
+[4.665252] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake\n'}
+[4.665284] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake\n'}
+[4.665317] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/package.xml\n'}
+[4.665368] (village_wang) StdoutLine: {'line': b'-- Installing: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/lib/village_wang/wang2_node\n'}
+[4.666875] (village_wang) StdoutLine: {'line': b'-- Set runtime path of "/home/wuling/hpc/ros2_learn/town_ws/install/village_wang/lib/village_wang/wang2_node" to ""\n'}
+[4.667716] (village_wang) CommandEnded: {'returncode': 0}
+[4.697623] (village_wang) JobEnded: {'identifier': 'village_wang', 'rc': 0}
+[4.697998] (-) EventReactorShutdown: {}

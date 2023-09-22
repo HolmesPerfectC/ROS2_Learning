@@ -1,0 +1,40 @@
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wuling/hpc/ros2_learn/town_ws/build/village_wang
+[35m[1mConsolidate compiler generated dependencies of target wang2_node[0m
+[100%] Built target wang2_node
+-- Install configuration: ""
+-- Installing: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
+-- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
+-- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
+-- Installing: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/environment/path.sh
+-- Installing: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/environment/path.dsv
+-- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/local_setup.bash
+-- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/local_setup.sh
+-- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/local_setup.zsh
+-- Installing: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/local_setup.dsv
+-- Installing: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/package.dsv
+-- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/ament_index/resource_index/packages/village_wang
+-- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
+-- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
+-- Installing: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/package.xml
+-- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/lib/village_wang/wang2_node

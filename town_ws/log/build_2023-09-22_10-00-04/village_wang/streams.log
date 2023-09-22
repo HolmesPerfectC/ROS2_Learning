@@ -1,0 +1,11 @@
+[0.205s] Invoking command in '/home/wuling/hpc/ros2_learn/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wuling/hpc/ros2_learn/town_ws/build/village_wang -- -j24 -l24
+[0.255s] [35m[1mConsolidate compiler generated dependencies of target wang2_node[0m
+[0.265s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[0.402s] [01m[K/home/wuling/hpc/ros2_learn/town_ws/src/village_wang/src/wang2.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
+[0.402s]     2 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+[0.402s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.402s] compilation terminated.
+[0.404s] gmake[2]: *** [CMakeFiles/wang2_node.dir/build.make:76: CMakeFiles/wang2_node.dir/src/wang2.cpp.o] Error 1
+[0.404s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wang2_node.dir/all] Error 2
+[0.404s] gmake: *** [Makefile:146: all] Error 2
+[0.406s] Invoked command in '/home/wuling/hpc/ros2_learn/town_ws/build/village_wang' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wuling/hpc/ros2_learn/town_ws/build/village_wang -- -j24 -l24

@@ -1,0 +1,3 @@
+[console_scripts]
+li4_node = village_li.li4:main
+
