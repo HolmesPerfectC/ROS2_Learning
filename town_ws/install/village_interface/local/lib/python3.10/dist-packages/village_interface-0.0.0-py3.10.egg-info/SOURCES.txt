@@ -1,0 +1,6 @@
+setup.py
+village_interface/__init__.py
+village_interface.egg-info/PKG-INFO
+village_interface.egg-info/SOURCES.txt
+village_interface.egg-info/dependency_links.txt
+village_interface.egg-info/top_level.txt
