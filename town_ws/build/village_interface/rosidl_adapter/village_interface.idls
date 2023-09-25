@@ -1,1 +1,3 @@
 /home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_adapter/village_interface:msg/Novel.idl
+/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_adapter/village_interface:srv/BorrowMoney.idl
+/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_adapter/village_interface:srv/SellNovel.idl

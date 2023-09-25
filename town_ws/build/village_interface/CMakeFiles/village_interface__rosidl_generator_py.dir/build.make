@@ -83,14 +83,46 @@ CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/villag
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/msg/_novel_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_py/village_interface/msg/_novel_s.c -o CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/msg/_novel_s.c.s
 
+CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/srv/_borrow_money_s.c.o: CMakeFiles/village_interface__rosidl_generator_py.dir/flags.make
+CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/srv/_borrow_money_s.c.o: rosidl_generator_py/village_interface/srv/_borrow_money_s.c
+CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/srv/_borrow_money_s.c.o: CMakeFiles/village_interface__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/srv/_borrow_money_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/srv/_borrow_money_s.c.o -MF CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/srv/_borrow_money_s.c.o.d -o CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/srv/_borrow_money_s.c.o -c /home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_py/village_interface/srv/_borrow_money_s.c
+
+CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/srv/_borrow_money_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/srv/_borrow_money_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_py/village_interface/srv/_borrow_money_s.c > CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/srv/_borrow_money_s.c.i
+
+CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/srv/_borrow_money_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/srv/_borrow_money_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_py/village_interface/srv/_borrow_money_s.c -o CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/srv/_borrow_money_s.c.s
+
+CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/srv/_sell_novel_s.c.o: CMakeFiles/village_interface__rosidl_generator_py.dir/flags.make
+CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/srv/_sell_novel_s.c.o: rosidl_generator_py/village_interface/srv/_sell_novel_s.c
+CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/srv/_sell_novel_s.c.o: CMakeFiles/village_interface__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/srv/_sell_novel_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/srv/_sell_novel_s.c.o -MF CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/srv/_sell_novel_s.c.o.d -o CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/srv/_sell_novel_s.c.o -c /home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_py/village_interface/srv/_sell_novel_s.c
+
+CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/srv/_sell_novel_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/srv/_sell_novel_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_py/village_interface/srv/_sell_novel_s.c > CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/srv/_sell_novel_s.c.i
+
+CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/srv/_sell_novel_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/srv/_sell_novel_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_py/village_interface/srv/_sell_novel_s.c -o CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/srv/_sell_novel_s.c.s
+
 # Object files for target village_interface__rosidl_generator_py
 village_interface__rosidl_generator_py_OBJECTS = \
-"CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/msg/_novel_s.c.o"
+"CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/msg/_novel_s.c.o" \
+"CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/srv/_borrow_money_s.c.o" \
+"CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/srv/_sell_novel_s.c.o"
 
 # External object files for target village_interface__rosidl_generator_py
 village_interface__rosidl_generator_py_EXTERNAL_OBJECTS =
 
 rosidl_generator_py/village_interface/libvillage_interface__rosidl_generator_py.so: CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/msg/_novel_s.c.o
+rosidl_generator_py/village_interface/libvillage_interface__rosidl_generator_py.so: CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/srv/_borrow_money_s.c.o
+rosidl_generator_py/village_interface/libvillage_interface__rosidl_generator_py.so: CMakeFiles/village_interface__rosidl_generator_py.dir/rosidl_generator_py/village_interface/srv/_sell_novel_s.c.o
 rosidl_generator_py/village_interface/libvillage_interface__rosidl_generator_py.so: CMakeFiles/village_interface__rosidl_generator_py.dir/build.make
 rosidl_generator_py/village_interface/libvillage_interface__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 rosidl_generator_py/village_interface/libvillage_interface__rosidl_generator_py.so: libvillage_interface__rosidl_typesupport_c.so
@@ -111,7 +143,7 @@ rosidl_generator_py/village_interface/libvillage_interface__rosidl_generator_py.
 rosidl_generator_py/village_interface/libvillage_interface__rosidl_generator_py.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 rosidl_generator_py/village_interface/libvillage_interface__rosidl_generator_py.so: /opt/ros/humble/lib/librcutils.so
 rosidl_generator_py/village_interface/libvillage_interface__rosidl_generator_py.so: CMakeFiles/village_interface__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/village_interface/libvillage_interface__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library rosidl_generator_py/village_interface/libvillage_interface__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/village_interface__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

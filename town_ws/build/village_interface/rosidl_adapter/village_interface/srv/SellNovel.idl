@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from village_interface/srv/SellNovel.srv
+// generated code does not contain a copyright notice
+
+
+module village_interface {
+  module srv {
+    @verbatim (language="comment", text=
+      "request")
+    struct SellNovel_Request {
+      uint32 money;
+    };
+    struct SellNovel_Response {
+      sequence<string> novels;
+    };
+  };
+};

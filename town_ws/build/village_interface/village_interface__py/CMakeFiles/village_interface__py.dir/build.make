@@ -70,8 +70,13 @@ village_interface__py/CMakeFiles/village_interface__py: rosidl_generator_py/vill
 village_interface__py/CMakeFiles/village_interface__py: rosidl_generator_py/village_interface/_village_interface_s.ep.rosidl_typesupport_introspection_c.c
 village_interface__py/CMakeFiles/village_interface__py: rosidl_generator_py/village_interface/_village_interface_s.ep.rosidl_typesupport_c.c
 village_interface__py/CMakeFiles/village_interface__py: rosidl_generator_py/village_interface/msg/_novel.py
+village_interface__py/CMakeFiles/village_interface__py: rosidl_generator_py/village_interface/srv/_borrow_money.py
+village_interface__py/CMakeFiles/village_interface__py: rosidl_generator_py/village_interface/srv/_sell_novel.py
 village_interface__py/CMakeFiles/village_interface__py: rosidl_generator_py/village_interface/msg/__init__.py
+village_interface__py/CMakeFiles/village_interface__py: rosidl_generator_py/village_interface/srv/__init__.py
 village_interface__py/CMakeFiles/village_interface__py: rosidl_generator_py/village_interface/msg/_novel_s.c
+village_interface__py/CMakeFiles/village_interface__py: rosidl_generator_py/village_interface/srv/_borrow_money_s.c
+village_interface__py/CMakeFiles/village_interface__py: rosidl_generator_py/village_interface/srv/_sell_novel_s.c
 
 rosidl_generator_py/village_interface/_village_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/village_interface/_village_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -87,6 +92,8 @@ rosidl_generator_py/village_interface/_village_interface_s.ep.rosidl_typesupport
 rosidl_generator_py/village_interface/_village_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/village_interface/_village_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/village_interface/_village_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/village_interface/msg/Novel.idl
+rosidl_generator_py/village_interface/_village_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/village_interface/srv/BorrowMoney.idl
+rosidl_generator_py/village_interface/_village_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/village_interface/srv/SellNovel.idl
 rosidl_generator_py/village_interface/_village_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl
 rosidl_generator_py/village_interface/_village_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl
 rosidl_generator_py/village_interface/_village_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl
@@ -188,11 +195,26 @@ rosidl_generator_py/village_interface/_village_interface_s.ep.rosidl_typesupport
 rosidl_generator_py/village_interface/msg/_novel.py: rosidl_generator_py/village_interface/_village_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/village_interface/msg/_novel.py
 
+rosidl_generator_py/village_interface/srv/_borrow_money.py: rosidl_generator_py/village_interface/_village_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/village_interface/srv/_borrow_money.py
+
+rosidl_generator_py/village_interface/srv/_sell_novel.py: rosidl_generator_py/village_interface/_village_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/village_interface/srv/_sell_novel.py
+
 rosidl_generator_py/village_interface/msg/__init__.py: rosidl_generator_py/village_interface/_village_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/village_interface/msg/__init__.py
 
+rosidl_generator_py/village_interface/srv/__init__.py: rosidl_generator_py/village_interface/_village_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/village_interface/srv/__init__.py
+
 rosidl_generator_py/village_interface/msg/_novel_s.c: rosidl_generator_py/village_interface/_village_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/village_interface/msg/_novel_s.c
+
+rosidl_generator_py/village_interface/srv/_borrow_money_s.c: rosidl_generator_py/village_interface/_village_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/village_interface/srv/_borrow_money_s.c
+
+rosidl_generator_py/village_interface/srv/_sell_novel_s.c: rosidl_generator_py/village_interface/_village_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/village_interface/srv/_sell_novel_s.c
 
 village_interface__py: rosidl_generator_py/village_interface/_village_interface_s.ep.rosidl_typesupport_c.c
 village_interface__py: rosidl_generator_py/village_interface/_village_interface_s.ep.rosidl_typesupport_fastrtps_c.c
@@ -200,6 +222,11 @@ village_interface__py: rosidl_generator_py/village_interface/_village_interface_
 village_interface__py: rosidl_generator_py/village_interface/msg/__init__.py
 village_interface__py: rosidl_generator_py/village_interface/msg/_novel.py
 village_interface__py: rosidl_generator_py/village_interface/msg/_novel_s.c
+village_interface__py: rosidl_generator_py/village_interface/srv/__init__.py
+village_interface__py: rosidl_generator_py/village_interface/srv/_borrow_money.py
+village_interface__py: rosidl_generator_py/village_interface/srv/_borrow_money_s.c
+village_interface__py: rosidl_generator_py/village_interface/srv/_sell_novel.py
+village_interface__py: rosidl_generator_py/village_interface/srv/_sell_novel_s.c
 village_interface__py: village_interface__py/CMakeFiles/village_interface__py
 village_interface__py: village_interface__py/CMakeFiles/village_interface__py.dir/build.make
 .PHONY : village_interface__py

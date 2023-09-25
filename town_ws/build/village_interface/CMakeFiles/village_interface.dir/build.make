@@ -67,6 +67,12 @@ include CMakeFiles/village_interface.dir/compiler_depend.make
 include CMakeFiles/village_interface.dir/progress.make
 
 CMakeFiles/village_interface: /home/wuling/hpc/ros2_learn/town_ws/src/village_interface/msg/Novel.msg
+CMakeFiles/village_interface: /home/wuling/hpc/ros2_learn/town_ws/src/village_interface/srv/BorrowMoney.srv
+CMakeFiles/village_interface: rosidl_cmake/srv/BorrowMoney_Request.msg
+CMakeFiles/village_interface: rosidl_cmake/srv/BorrowMoney_Response.msg
+CMakeFiles/village_interface: /home/wuling/hpc/ros2_learn/town_ws/src/village_interface/srv/SellNovel.srv
+CMakeFiles/village_interface: rosidl_cmake/srv/SellNovel_Request.msg
+CMakeFiles/village_interface: rosidl_cmake/srv/SellNovel_Response.msg
 CMakeFiles/village_interface: /opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl
 CMakeFiles/village_interface: /opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl
 CMakeFiles/village_interface: /opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl

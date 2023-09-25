@@ -1,0 +1,4 @@
+# request
+uint32 money
+---
+string[] novels

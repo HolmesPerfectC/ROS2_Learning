@@ -3,7 +3,9 @@
   "output_dir": "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_typesupport_introspection_c/village_interface",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource",
   "idl_tuples": [
-    "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_adapter/village_interface:msg/Novel.idl"
+    "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_adapter/village_interface:msg/Novel.idl",
+    "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_adapter/village_interface:srv/BorrowMoney.idl",
+    "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_adapter/village_interface:srv/SellNovel.idl"
   ],
   "ros_interface_dependencies": [
     "sensor_msgs:/opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl",
@@ -106,6 +108,8 @@
     "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
     "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_adapter/village_interface/msg/Novel.idl",
+    "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_adapter/village_interface/srv/BorrowMoney.idl",
+    "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_adapter/village_interface/srv/SellNovel.idl",
     "/opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl",
     "/opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl",
     "/opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl",

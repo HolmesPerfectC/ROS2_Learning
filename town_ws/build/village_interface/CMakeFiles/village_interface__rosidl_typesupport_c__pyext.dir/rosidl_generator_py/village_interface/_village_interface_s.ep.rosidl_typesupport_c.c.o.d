@@ -209,4 +209,10 @@ CMakeFiles/village_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_p
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.h \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
- /home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_c/village_interface/msg/detail/novel__functions.h
+ /home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_c/village_interface/msg/detail/novel__functions.h \
+ /home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_c/village_interface/srv/detail/borrow_money__type_support.h \
+ /home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_c/village_interface/srv/detail/borrow_money__struct.h \
+ /home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_c/village_interface/srv/detail/borrow_money__functions.h \
+ /home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_c/village_interface/srv/detail/sell_novel__type_support.h \
+ /home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_c/village_interface/srv/detail/sell_novel__struct.h \
+ /home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_c/village_interface/srv/detail/sell_novel__functions.h

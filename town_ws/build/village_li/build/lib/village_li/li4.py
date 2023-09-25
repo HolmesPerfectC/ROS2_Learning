@@ -3,6 +3,7 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String, UInt32
+from village_interface.srv import BorrowMoney
 
 class WriterNode(Node):
     """
@@ -19,6 +20,21 @@ class WriterNode(Node):
 
         self.account = 80
         self.sub_money = self.create_subscription(UInt32, "sexy_girl_money", self.recv_money_callback, 10)
+
+        self.borrow_server = self.create_service(BorrowMoney, "borrow_money", self.borrow_money_callback)
+
+    def borrow_money_callback(self, request, response):
+        self.get_logger().info("Have received borrow money request from %s, and account has %d money. " % (request.name, self.account))
+        if request.money <= self.account * 0.1:
+            response.success = True
+            response.money = request.money
+            self.account = self.account - request.money
+            self.get_logger().info("Borrow money Success! Have borrowed %d money, the account remains %d money! " % (request.money, self.account))
+        else:
+            response.success = False
+            response.money = 0
+            self.get_logger().info("Sorry bro! I don't have enough money! ")
+        return response
 
     def timer_callback(self):
         msg = String()

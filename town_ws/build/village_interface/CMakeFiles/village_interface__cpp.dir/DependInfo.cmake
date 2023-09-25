@@ -15,6 +15,14 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_cpp/village_interface/msg/detail/novel__builder.hpp" "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_cpp/village_interface/msg/novel.hpp"
   "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_cpp/village_interface/msg/detail/novel__struct.hpp" "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_cpp/village_interface/msg/novel.hpp"
   "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_cpp/village_interface/msg/detail/novel__traits.hpp" "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_cpp/village_interface/msg/novel.hpp"
+  "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_cpp/village_interface/srv/borrow_money.hpp" "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_cpp/village_interface/msg/novel.hpp"
+  "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_cpp/village_interface/srv/detail/borrow_money__builder.hpp" "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_cpp/village_interface/msg/novel.hpp"
+  "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_cpp/village_interface/srv/detail/borrow_money__struct.hpp" "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_cpp/village_interface/msg/novel.hpp"
+  "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_cpp/village_interface/srv/detail/borrow_money__traits.hpp" "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_cpp/village_interface/msg/novel.hpp"
+  "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_cpp/village_interface/srv/detail/sell_novel__builder.hpp" "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_cpp/village_interface/msg/novel.hpp"
+  "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_cpp/village_interface/srv/detail/sell_novel__struct.hpp" "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_cpp/village_interface/msg/novel.hpp"
+  "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_cpp/village_interface/srv/detail/sell_novel__traits.hpp" "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_cpp/village_interface/msg/novel.hpp"
+  "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_cpp/village_interface/srv/sell_novel.hpp" "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_generator_cpp/village_interface/msg/novel.hpp"
   )
 
 

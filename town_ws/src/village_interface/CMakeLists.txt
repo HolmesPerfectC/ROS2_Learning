@@ -28,6 +28,8 @@ endif()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Novel.msg"
+  "srv/BorrowMoney.srv"
+  "srv/SellNovel.srv"
   DEPENDENCIES sensor_msgs
 )
 

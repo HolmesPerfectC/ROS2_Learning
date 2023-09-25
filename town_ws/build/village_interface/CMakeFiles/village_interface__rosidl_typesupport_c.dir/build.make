@@ -76,6 +76,8 @@ rosidl_typesupport_c/village_interface/msg/novel__type_support.cpp: /opt/ros/hum
 rosidl_typesupport_c/village_interface/msg/novel__type_support.cpp: /opt/ros/humble/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em
 rosidl_typesupport_c/village_interface/msg/novel__type_support.cpp: /opt/ros/humble/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em
 rosidl_typesupport_c/village_interface/msg/novel__type_support.cpp: rosidl_adapter/village_interface/msg/Novel.idl
+rosidl_typesupport_c/village_interface/msg/novel__type_support.cpp: rosidl_adapter/village_interface/srv/BorrowMoney.idl
+rosidl_typesupport_c/village_interface/msg/novel__type_support.cpp: rosidl_adapter/village_interface/srv/SellNovel.idl
 rosidl_typesupport_c/village_interface/msg/novel__type_support.cpp: /opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl
 rosidl_typesupport_c/village_interface/msg/novel__type_support.cpp: /opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl
 rosidl_typesupport_c/village_interface/msg/novel__type_support.cpp: /opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl
@@ -168,6 +170,12 @@ rosidl_typesupport_c/village_interface/msg/novel__type_support.cpp: /opt/ros/hum
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support dispatch for ROS interfaces"
 	/usr/bin/python3.10 /opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c --generator-arguments-file /home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_typesupport_c__arguments.json --typesupports rosidl_typesupport_fastrtps_c rosidl_typesupport_introspection_c
 
+rosidl_typesupport_c/village_interface/srv/borrow_money__type_support.cpp: rosidl_typesupport_c/village_interface/msg/novel__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/village_interface/srv/borrow_money__type_support.cpp
+
+rosidl_typesupport_c/village_interface/srv/sell_novel__type_support.cpp: rosidl_typesupport_c/village_interface/msg/novel__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/village_interface/srv/sell_novel__type_support.cpp
+
 CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/msg/novel__type_support.cpp.o: CMakeFiles/village_interface__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/msg/novel__type_support.cpp.o: rosidl_typesupport_c/village_interface/msg/novel__type_support.cpp
 CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/msg/novel__type_support.cpp.o: CMakeFiles/village_interface__rosidl_typesupport_c.dir/compiler_depend.ts
@@ -182,14 +190,46 @@ CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/vill
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/msg/novel__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_typesupport_c/village_interface/msg/novel__type_support.cpp -o CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/msg/novel__type_support.cpp.s
 
+CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/srv/borrow_money__type_support.cpp.o: CMakeFiles/village_interface__rosidl_typesupport_c.dir/flags.make
+CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/srv/borrow_money__type_support.cpp.o: rosidl_typesupport_c/village_interface/srv/borrow_money__type_support.cpp
+CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/srv/borrow_money__type_support.cpp.o: CMakeFiles/village_interface__rosidl_typesupport_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/srv/borrow_money__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/srv/borrow_money__type_support.cpp.o -MF CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/srv/borrow_money__type_support.cpp.o.d -o CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/srv/borrow_money__type_support.cpp.o -c /home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_typesupport_c/village_interface/srv/borrow_money__type_support.cpp
+
+CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/srv/borrow_money__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/srv/borrow_money__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_typesupport_c/village_interface/srv/borrow_money__type_support.cpp > CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/srv/borrow_money__type_support.cpp.i
+
+CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/srv/borrow_money__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/srv/borrow_money__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_typesupport_c/village_interface/srv/borrow_money__type_support.cpp -o CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/srv/borrow_money__type_support.cpp.s
+
+CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/srv/sell_novel__type_support.cpp.o: CMakeFiles/village_interface__rosidl_typesupport_c.dir/flags.make
+CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/srv/sell_novel__type_support.cpp.o: rosidl_typesupport_c/village_interface/srv/sell_novel__type_support.cpp
+CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/srv/sell_novel__type_support.cpp.o: CMakeFiles/village_interface__rosidl_typesupport_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/srv/sell_novel__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/srv/sell_novel__type_support.cpp.o -MF CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/srv/sell_novel__type_support.cpp.o.d -o CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/srv/sell_novel__type_support.cpp.o -c /home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_typesupport_c/village_interface/srv/sell_novel__type_support.cpp
+
+CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/srv/sell_novel__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/srv/sell_novel__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_typesupport_c/village_interface/srv/sell_novel__type_support.cpp > CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/srv/sell_novel__type_support.cpp.i
+
+CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/srv/sell_novel__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/srv/sell_novel__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_typesupport_c/village_interface/srv/sell_novel__type_support.cpp -o CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/srv/sell_novel__type_support.cpp.s
+
 # Object files for target village_interface__rosidl_typesupport_c
 village_interface__rosidl_typesupport_c_OBJECTS = \
-"CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/msg/novel__type_support.cpp.o"
+"CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/msg/novel__type_support.cpp.o" \
+"CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/srv/borrow_money__type_support.cpp.o" \
+"CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/srv/sell_novel__type_support.cpp.o"
 
 # External object files for target village_interface__rosidl_typesupport_c
 village_interface__rosidl_typesupport_c_EXTERNAL_OBJECTS =
 
 libvillage_interface__rosidl_typesupport_c.so: CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/msg/novel__type_support.cpp.o
+libvillage_interface__rosidl_typesupport_c.so: CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/srv/borrow_money__type_support.cpp.o
+libvillage_interface__rosidl_typesupport_c.so: CMakeFiles/village_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interface/srv/sell_novel__type_support.cpp.o
 libvillage_interface__rosidl_typesupport_c.so: CMakeFiles/village_interface__rosidl_typesupport_c.dir/build.make
 libvillage_interface__rosidl_typesupport_c.so: libvillage_interface__rosidl_generator_c.so
 libvillage_interface__rosidl_typesupport_c.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
@@ -204,7 +244,7 @@ libvillage_interface__rosidl_typesupport_c.so: /opt/ros/humble/lib/libbuiltin_in
 libvillage_interface__rosidl_typesupport_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libvillage_interface__rosidl_typesupport_c.so: /opt/ros/humble/lib/librcutils.so
 libvillage_interface__rosidl_typesupport_c.so: CMakeFiles/village_interface__rosidl_typesupport_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libvillage_interface__rosidl_typesupport_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libvillage_interface__rosidl_typesupport_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/village_interface__rosidl_typesupport_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -216,6 +256,8 @@ CMakeFiles/village_interface__rosidl_typesupport_c.dir/clean:
 .PHONY : CMakeFiles/village_interface__rosidl_typesupport_c.dir/clean
 
 CMakeFiles/village_interface__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/village_interface/msg/novel__type_support.cpp
+CMakeFiles/village_interface__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/village_interface/srv/borrow_money__type_support.cpp
+CMakeFiles/village_interface__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/village_interface/srv/sell_novel__type_support.cpp
 	cd /home/wuling/hpc/ros2_learn/town_ws/build/village_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wuling/hpc/ros2_learn/town_ws/src/village_interface /home/wuling/hpc/ros2_learn/town_ws/src/village_interface /home/wuling/hpc/ros2_learn/town_ws/build/village_interface /home/wuling/hpc/ros2_learn/town_ws/build/village_interface /home/wuling/hpc/ros2_learn/town_ws/build/village_interface/CMakeFiles/village_interface__rosidl_typesupport_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/village_interface__rosidl_typesupport_c.dir/depend
 

@@ -360,7 +360,39 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/village_interface/srv" TYPE FILE FILES "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_adapter/village_interface/srv/BorrowMoney.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/village_interface/srv" TYPE FILE FILES "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_adapter/village_interface/srv/SellNovel.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/village_interface/msg" TYPE FILE FILES "/home/wuling/hpc/ros2_learn/town_ws/src/village_interface/msg/Novel.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/village_interface/srv" TYPE FILE FILES "/home/wuling/hpc/ros2_learn/town_ws/src/village_interface/srv/BorrowMoney.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/village_interface/srv" TYPE FILE FILES "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_cmake/srv/BorrowMoney_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/village_interface/srv" TYPE FILE FILES "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_cmake/srv/BorrowMoney_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/village_interface/srv" TYPE FILE FILES "/home/wuling/hpc/ros2_learn/town_ws/src/village_interface/srv/SellNovel.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/village_interface/srv" TYPE FILE FILES "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_cmake/srv/SellNovel_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/village_interface/srv" TYPE FILE FILES "/home/wuling/hpc/ros2_learn/town_ws/build/village_interface/rosidl_cmake/srv/SellNovel_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

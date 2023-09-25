@@ -70,6 +70,14 @@ CMakeFiles/village_interface__cpp: rosidl_generator_cpp/village_interface/msg/no
 CMakeFiles/village_interface__cpp: rosidl_generator_cpp/village_interface/msg/detail/novel__builder.hpp
 CMakeFiles/village_interface__cpp: rosidl_generator_cpp/village_interface/msg/detail/novel__struct.hpp
 CMakeFiles/village_interface__cpp: rosidl_generator_cpp/village_interface/msg/detail/novel__traits.hpp
+CMakeFiles/village_interface__cpp: rosidl_generator_cpp/village_interface/srv/borrow_money.hpp
+CMakeFiles/village_interface__cpp: rosidl_generator_cpp/village_interface/srv/detail/borrow_money__builder.hpp
+CMakeFiles/village_interface__cpp: rosidl_generator_cpp/village_interface/srv/detail/borrow_money__struct.hpp
+CMakeFiles/village_interface__cpp: rosidl_generator_cpp/village_interface/srv/detail/borrow_money__traits.hpp
+CMakeFiles/village_interface__cpp: rosidl_generator_cpp/village_interface/srv/sell_novel.hpp
+CMakeFiles/village_interface__cpp: rosidl_generator_cpp/village_interface/srv/detail/sell_novel__builder.hpp
+CMakeFiles/village_interface__cpp: rosidl_generator_cpp/village_interface/srv/detail/sell_novel__struct.hpp
+CMakeFiles/village_interface__cpp: rosidl_generator_cpp/village_interface/srv/detail/sell_novel__traits.hpp
 
 rosidl_generator_cpp/village_interface/msg/novel.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/village_interface/msg/novel.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -87,6 +95,8 @@ rosidl_generator_cpp/village_interface/msg/novel.hpp: /opt/ros/humble/share/rosi
 rosidl_generator_cpp/village_interface/msg/novel.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/village_interface/msg/novel.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/village_interface/msg/novel.hpp: rosidl_adapter/village_interface/msg/Novel.idl
+rosidl_generator_cpp/village_interface/msg/novel.hpp: rosidl_adapter/village_interface/srv/BorrowMoney.idl
+rosidl_generator_cpp/village_interface/msg/novel.hpp: rosidl_adapter/village_interface/srv/SellNovel.idl
 rosidl_generator_cpp/village_interface/msg/novel.hpp: /opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl
 rosidl_generator_cpp/village_interface/msg/novel.hpp: /opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl
 rosidl_generator_cpp/village_interface/msg/novel.hpp: /opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl
@@ -188,11 +198,43 @@ rosidl_generator_cpp/village_interface/msg/detail/novel__struct.hpp: rosidl_gene
 rosidl_generator_cpp/village_interface/msg/detail/novel__traits.hpp: rosidl_generator_cpp/village_interface/msg/novel.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/village_interface/msg/detail/novel__traits.hpp
 
+rosidl_generator_cpp/village_interface/srv/borrow_money.hpp: rosidl_generator_cpp/village_interface/msg/novel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/village_interface/srv/borrow_money.hpp
+
+rosidl_generator_cpp/village_interface/srv/detail/borrow_money__builder.hpp: rosidl_generator_cpp/village_interface/msg/novel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/village_interface/srv/detail/borrow_money__builder.hpp
+
+rosidl_generator_cpp/village_interface/srv/detail/borrow_money__struct.hpp: rosidl_generator_cpp/village_interface/msg/novel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/village_interface/srv/detail/borrow_money__struct.hpp
+
+rosidl_generator_cpp/village_interface/srv/detail/borrow_money__traits.hpp: rosidl_generator_cpp/village_interface/msg/novel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/village_interface/srv/detail/borrow_money__traits.hpp
+
+rosidl_generator_cpp/village_interface/srv/sell_novel.hpp: rosidl_generator_cpp/village_interface/msg/novel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/village_interface/srv/sell_novel.hpp
+
+rosidl_generator_cpp/village_interface/srv/detail/sell_novel__builder.hpp: rosidl_generator_cpp/village_interface/msg/novel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/village_interface/srv/detail/sell_novel__builder.hpp
+
+rosidl_generator_cpp/village_interface/srv/detail/sell_novel__struct.hpp: rosidl_generator_cpp/village_interface/msg/novel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/village_interface/srv/detail/sell_novel__struct.hpp
+
+rosidl_generator_cpp/village_interface/srv/detail/sell_novel__traits.hpp: rosidl_generator_cpp/village_interface/msg/novel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/village_interface/srv/detail/sell_novel__traits.hpp
+
 village_interface__cpp: CMakeFiles/village_interface__cpp
 village_interface__cpp: rosidl_generator_cpp/village_interface/msg/detail/novel__builder.hpp
 village_interface__cpp: rosidl_generator_cpp/village_interface/msg/detail/novel__struct.hpp
 village_interface__cpp: rosidl_generator_cpp/village_interface/msg/detail/novel__traits.hpp
 village_interface__cpp: rosidl_generator_cpp/village_interface/msg/novel.hpp
+village_interface__cpp: rosidl_generator_cpp/village_interface/srv/borrow_money.hpp
+village_interface__cpp: rosidl_generator_cpp/village_interface/srv/detail/borrow_money__builder.hpp
+village_interface__cpp: rosidl_generator_cpp/village_interface/srv/detail/borrow_money__struct.hpp
+village_interface__cpp: rosidl_generator_cpp/village_interface/srv/detail/borrow_money__traits.hpp
+village_interface__cpp: rosidl_generator_cpp/village_interface/srv/detail/sell_novel__builder.hpp
+village_interface__cpp: rosidl_generator_cpp/village_interface/srv/detail/sell_novel__struct.hpp
+village_interface__cpp: rosidl_generator_cpp/village_interface/srv/detail/sell_novel__traits.hpp
+village_interface__cpp: rosidl_generator_cpp/village_interface/srv/sell_novel.hpp
 village_interface__cpp: CMakeFiles/village_interface__cpp.dir/build.make
 .PHONY : village_interface__cpp
 
