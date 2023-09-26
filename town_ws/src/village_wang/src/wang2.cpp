@@ -1,6 +1,8 @@
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
 #include "std_msgs/msg/u_int32.hpp"
+#include "village_interface/srv/sell_novel.hpp"
+#include <queue>
 
 
 using std::placeholders::_1;
@@ -20,6 +22,9 @@ private:
     //Declaration for publisher
     rclcpp::Publisher<std_msgs::msg::UInt32>::SharedPtr pub_money;
 
+    std::queue<std::string> novels_queue;
+
+
     void novel_callback(const std_msgs::msg::String::SharedPtr novels)
     {
         std_msgs::msg::UInt32 money;
@@ -28,8 +33,17 @@ private:
         //publish money
         pub_money->publish(money);
 
+        novels_queue.push(novels->data);
+
         RCLCPP_INFO(this->get_logger(), "I haved read %s.", novels->data.c_str());
     }
+
+    void sell_novel_callback(const village_interface::srv::SellNovel::Request::SharedPtr request, 
+                            const village_interface::srv::SellNovel::Response::SharedPtr response)
+    {
+        // if novels is not enough, wait for queue enough novels for sell
+    }
+
 public:
     SingleNode(std::string name) : Node(name)
     {
