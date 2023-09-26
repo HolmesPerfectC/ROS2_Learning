@@ -1,0 +1,50 @@
+[0.009s] Invoking command in '/home/wuling/hpc/ros2_learn/town_ws/build/village_wang': AMENT_PREFIX_PATH=/home/wuling/hpc/ros2_learn/town_ws/install/village_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wuling/hpc/ros2_learn/town_ws/install/village_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/wuling/hpc/ros2_learn/town_ws/install/village_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wuling/hpc/ros2_learn/town_ws/build/village_wang -- -j24 -l24
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target wang2_node[0m
+[0.048s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[1.262s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.262s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.262s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.263s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.263s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.263s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.263s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.263s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.263s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.263s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.263s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.263s]                  from [01m[K/home/wuling/hpc/ros2_learn/town_ws/src/village_wang/src/wang2.cpp:1[m[K:
+[1.263s] [01m[K/home/wuling/hpc/ros2_learn/town_ws/src/village_wang/src/wang2.cpp:[m[K In member function ‘[01m[Kvoid SingleNode::sell_novel_callback(village_interface::srv::SellNovel_Request_<std::allocator<void> >::SharedPtr, village_interface::srv::SellNovel_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.263s] [01m[K/home/wuling/hpc/ros2_learn/town_ws/src/village_wang/src/wang2.cpp:63:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::queue<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.263s]    63 |                 RCLCPP_INFO(this->get_logger(), [01;35m[K"Waiting for novel pub, current need %d chapter! "[m[K, [32m[Kint(num) - novels_queue.size()[m[K);
+[1.263s]       |                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.263s]       |                                                                                                              [32m[K|[m[K
+[1.263s]       |                                                                                                              [32m[Kstd::queue<std::__cxx11::basic_string<char> >::size_type {aka long unsigned int}[m[K
+[1.263s] [01m[K/home/wuling/hpc/ros2_learn/town_ws/src/village_wang/src/wang2.cpp:63:87:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.263s]    63 |                 RCLCPP_INFO(this->get_logger(), "Waiting for novel pub, current need [01;36m[K%d[m[K chapter! ", int(num) - novels_queue.size());
+[1.264s]       |                                                                                      [01;36m[K~^[m[K
+[1.264s]       |                                                                                       [01;36m[K|[m[K
+[1.264s]       |                                                                                       [01;36m[Kint[m[K
+[1.264s]       |                                                                                      [32m[K%ld[m[K
+[4.831s] [100%] [32m[1mLinking CXX executable wang2_node[0m
+[5.118s] [100%] Built target wang2_node
+[5.125s] Invoked command in '/home/wuling/hpc/ros2_learn/town_ws/build/village_wang' returned '0': AMENT_PREFIX_PATH=/home/wuling/hpc/ros2_learn/town_ws/install/village_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wuling/hpc/ros2_learn/town_ws/install/village_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/wuling/hpc/ros2_learn/town_ws/install/village_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wuling/hpc/ros2_learn/town_ws/build/village_wang -- -j24 -l24
+[5.149s] Invoking command in '/home/wuling/hpc/ros2_learn/town_ws/build/village_wang': AMENT_PREFIX_PATH=/home/wuling/hpc/ros2_learn/town_ws/install/village_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wuling/hpc/ros2_learn/town_ws/install/village_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/wuling/hpc/ros2_learn/town_ws/install/village_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wuling/hpc/ros2_learn/town_ws/build/village_wang
+[5.156s] -- Install configuration: ""
+[5.156s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
+[5.157s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
+[5.157s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
+[5.157s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv
+[5.157s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/environment/path.sh
+[5.157s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/environment/path.dsv
+[5.157s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/local_setup.bash
+[5.157s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/local_setup.sh
+[5.157s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/local_setup.zsh
+[5.157s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/local_setup.dsv
+[5.157s] -- Installing: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/package.dsv
+[5.157s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/ament_index/resource_index/packages/village_wang
+[5.157s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
+[5.158s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
+[5.158s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/package.xml
+[5.158s] -- Installing: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/lib/village_wang/wang2_node
+[5.161s] -- Set runtime path of "/home/wuling/hpc/ros2_learn/town_ws/install/village_wang/lib/village_wang/wang2_node" to ""
+[5.163s] Invoked command in '/home/wuling/hpc/ros2_learn/town_ws/build/village_wang' returned '0': AMENT_PREFIX_PATH=/home/wuling/hpc/ros2_learn/town_ws/install/village_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wuling/hpc/ros2_learn/town_ws/install/village_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/wuling/hpc/ros2_learn/town_ws/install/village_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wuling/hpc/ros2_learn/town_ws/build/village_wang

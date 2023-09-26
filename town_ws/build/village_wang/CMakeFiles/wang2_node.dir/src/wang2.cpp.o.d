@@ -606,4 +606,11 @@ CMakeFiles/wang2_node.dir/src/wang2.cpp.o: \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/u_int32.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int32__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int32__builder.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int32__traits.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int32__traits.hpp \
+ /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/sell_novel.hpp \
+ /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/sell_novel__struct.hpp \
+ /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/sell_novel__builder.hpp \
+ /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/sell_novel__traits.hpp \
+ /usr/include/c++/11/queue /usr/include/c++/11/deque \
+ /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
+ /usr/include/c++/11/bits/stl_queue.h

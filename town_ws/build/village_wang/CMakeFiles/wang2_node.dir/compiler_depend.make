@@ -672,10 +672,33 @@ CMakeFiles/wang2_node.dir/src/wang2.cpp.o: /home/wuling/hpc/ros2_learn/town_ws/s
   /opt/ros/humble/include/std_msgs/std_msgs/msg/u_int32.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int32__struct.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int32__builder.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int32__traits.hpp
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int32__traits.hpp \
+  /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/sell_novel.hpp \
+  /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/sell_novel__struct.hpp \
+  /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/sell_novel__builder.hpp \
+  /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/sell_novel__traits.hpp \
+  /usr/include/c++/11/queue \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc \
+  /usr/include/c++/11/bits/stl_queue.h
 
+
+/usr/include/c++/11/bits/stl_queue.h:
+
+/usr/include/c++/11/bits/deque.tcc:
+
+/usr/include/c++/11/bits/stl_deque.h:
+
+/usr/include/c++/11/queue:
+
+/home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/sell_novel__traits.hpp:
+
+/home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/sell_novel__struct.hpp:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int32__builder.hpp:
+
+/usr/include/c++/11/deque:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/u_int32.hpp:
 
@@ -1175,6 +1198,8 @@ CMakeFiles/wang2_node.dir/src/wang2.cpp.o: /home/wuling/hpc/ros2_learn/town_ws/s
 
 /usr/include/c++/11/ctime:
 
+/home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/sell_novel__builder.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp:
@@ -1570,6 +1595,8 @@ CMakeFiles/wang2_node.dir/src/wang2.cpp.o: /home/wuling/hpc/ros2_learn/town_ws/s
 /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/macros.h:
+
+/home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/sell_novel.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/testing/fault_injection.h:
 
