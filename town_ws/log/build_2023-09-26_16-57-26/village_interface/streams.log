@@ -1,0 +1,200 @@
+[0.008s] Invoking command in '/home/wuling/hpc/ros2_learn/town_ws/build/village_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wuling/hpc/ros2_learn/town_ws/build/village_interface -- -j24 -l24
+[0.040s] [ 10%] Built target village_interface__rosidl_generator_c
+[0.041s] [ 12%] Built target village_interface__cpp
+[0.045s] [ 12%] Built target ament_cmake_python_copy_village_interface
+[0.053s] [ 23%] Built target village_interface__rosidl_typesupport_c
+[0.054s] [ 34%] Built target village_interface__rosidl_typesupport_introspection_c
+[0.055s] [ 44%] Built target village_interface__rosidl_typesupport_cpp
+[0.056s] [ 55%] Built target village_interface__rosidl_typesupport_fastrtps_c
+[0.057s] [ 65%] Built target village_interface__rosidl_typesupport_introspection_cpp
+[0.057s] [ 76%] Built target village_interface__rosidl_typesupport_fastrtps_cpp
+[0.068s] [ 76%] Built target village_interface
+[0.078s] [ 78%] Built target village_interface__py
+[0.089s] [ 87%] Built target village_interface__rosidl_generator_py
+[0.099s] [ 91%] Built target village_interface__rosidl_typesupport_fastrtps_c__pyext
+[0.100s] [ 95%] Built target village_interface__rosidl_typesupport_c__pyext
+[0.101s] [100%] Built target village_interface__rosidl_typesupport_introspection_c__pyext
+[0.211s] running egg_info
+[0.211s] writing village_interface.egg-info/PKG-INFO
+[0.211s] writing dependency_links to village_interface.egg-info/dependency_links.txt
+[0.212s] writing top-level names to village_interface.egg-info/top_level.txt
+[0.213s] reading manifest file 'village_interface.egg-info/SOURCES.txt'
+[0.214s] writing manifest file 'village_interface.egg-info/SOURCES.txt'
+[0.230s] [100%] Built target ament_cmake_python_build_village_interface_egg
+[0.236s] Invoked command in '/home/wuling/hpc/ros2_learn/town_ws/build/village_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wuling/hpc/ros2_learn/town_ws/build/village_interface -- -j24 -l24
+[0.290s] Invoking command in '/home/wuling/hpc/ros2_learn/town_ws/build/village_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wuling/hpc/ros2_learn/town_ws/build/village_interface
+[0.293s] -- Install configuration: ""
+[0.293s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/ament_index/resource_index/rosidl_interfaces/village_interface
+[0.293s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface
+[0.293s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv
+[0.293s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/borrow_money.h
+[0.293s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/sell_novel.h
+[0.293s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail
+[0.294s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/borrow_money__functions.c
+[0.294s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/borrow_money__struct.h
+[0.294s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/sell_novel__functions.h
+[0.294s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/sell_novel__functions.c
+[0.294s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/sell_novel__struct.h
+[0.294s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/borrow_money__type_support.h
+[0.294s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/sell_novel__type_support.h
+[0.294s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/borrow_money__functions.h
+[0.294s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/msg
+[0.294s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/msg/rosidl_generator_c__visibility_control.h
+[0.294s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/msg/detail
+[0.294s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/msg/detail/novel__functions.c
+[0.294s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/msg/detail/novel__functions.h
+[0.294s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/msg/detail/novel__struct.h
+[0.294s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/msg/detail/novel__type_support.h
+[0.294s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/msg/novel.h
+[0.294s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/environment/library_path.sh
+[0.294s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/environment/library_path.dsv
+[0.294s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/lib/libvillage_interface__rosidl_generator_c.so
+[0.294s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface
+[0.294s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv
+[0.294s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail
+[0.294s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/sell_novel__rosidl_typesupport_fastrtps_c.h
+[0.294s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/borrow_money__rosidl_typesupport_fastrtps_c.h
+[0.295s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/msg
+[0.295s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.295s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/msg/detail
+[0.295s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/msg/detail/novel__rosidl_typesupport_fastrtps_c.h
+[0.295s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/lib/libvillage_interface__rosidl_typesupport_fastrtps_c.so
+[0.295s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface
+[0.295s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv
+[0.295s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/sell_novel.hpp
+[0.295s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/borrow_money.hpp
+[0.295s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail
+[0.295s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/borrow_money__builder.hpp
+[0.295s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/borrow_money__traits.hpp
+[0.295s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/sell_novel__struct.hpp
+[0.295s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/borrow_money__struct.hpp
+[0.295s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/sell_novel__builder.hpp
+[0.295s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/sell_novel__traits.hpp
+[0.295s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/msg
+[0.295s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/msg/novel.hpp
+[0.295s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/msg/detail
+[0.295s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/msg/detail/novel__traits.hpp
+[0.295s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/msg/detail/novel__struct.hpp
+[0.295s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/msg/detail/novel__builder.hpp
+[0.295s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface
+[0.295s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv
+[0.295s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail
+[0.295s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/borrow_money__rosidl_typesupport_fastrtps_cpp.hpp
+[0.295s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/sell_novel__rosidl_typesupport_fastrtps_cpp.hpp
+[0.295s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/dds_fastrtps
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/msg
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/msg/detail
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/msg/detail/novel__rosidl_typesupport_fastrtps_cpp.hpp
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/msg/detail/dds_fastrtps
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/lib/libvillage_interface__rosidl_typesupport_fastrtps_cpp.so
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/sell_novel__rosidl_typesupport_introspection_c.h
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/borrow_money__type_support.c
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/sell_novel__type_support.c
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/borrow_money__rosidl_typesupport_introspection_c.h
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/msg
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/msg/detail
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/msg/detail/novel__type_support.c
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/msg/detail/novel__rosidl_typesupport_introspection_c.h
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/lib/libvillage_interface__rosidl_typesupport_introspection_c.so
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/lib/libvillage_interface__rosidl_typesupport_c.so
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/sell_novel__rosidl_typesupport_introspection_cpp.hpp
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/borrow_money__rosidl_typesupport_introspection_cpp.hpp
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/sell_novel__type_support.cpp
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/srv/detail/borrow_money__type_support.cpp
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/msg
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/msg/detail
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/msg/detail/novel__rosidl_typesupport_introspection_cpp.hpp
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/include/village_interface/village_interface/msg/detail/novel__type_support.cpp
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/lib/libvillage_interface__rosidl_typesupport_introspection_cpp.so
+[0.296s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/lib/libvillage_interface__rosidl_typesupport_cpp.so
+[0.297s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/environment/pythonpath.sh
+[0.297s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/environment/pythonpath.dsv
+[0.297s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages/village_interface-0.0.0-py3.10.egg-info
+[0.297s] -- Installing: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages/village_interface-0.0.0-py3.10.egg-info/top_level.txt
+[0.297s] -- Installing: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages/village_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.297s] -- Installing: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages/village_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[0.297s] -- Installing: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages/village_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.297s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages/village_interface
+[0.297s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages/village_interface/_village_interface_s.ep.rosidl_typesupport_c.c
+[0.297s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages/village_interface/village_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.297s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages/village_interface/srv
+[0.297s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages/village_interface/srv/_borrow_money_s.c
+[0.297s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages/village_interface/srv/_sell_novel.py
+[0.297s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages/village_interface/srv/_borrow_money.py
+[0.297s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages/village_interface/srv/__init__.py
+[0.297s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages/village_interface/srv/_sell_novel_s.c
+[0.297s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages/village_interface/libvillage_interface__rosidl_generator_py.so
+[0.297s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages/village_interface/village_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.297s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages/village_interface/_village_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.297s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages/village_interface/__init__.py
+[0.297s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages/village_interface/msg
+[0.297s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages/village_interface/msg/_novel_s.c
+[0.297s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages/village_interface/msg/_novel.py
+[0.297s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages/village_interface/msg/__init__.py
+[0.297s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages/village_interface/_village_interface_s.ep.rosidl_typesupport_introspection_c.c
+[0.297s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages/village_interface/village_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.313s] Listing '/home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages/village_interface'...
+[0.314s] Listing '/home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages/village_interface/msg'...
+[0.314s] Listing '/home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages/village_interface/srv'...
+[0.316s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages/village_interface/village_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.316s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages/village_interface/village_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.316s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages/village_interface/village_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.317s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/lib/libvillage_interface__rosidl_generator_py.so
+[0.317s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/msg/Novel.idl
+[0.317s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/srv/BorrowMoney.idl
+[0.317s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/srv/SellNovel.idl
+[0.317s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/msg/Novel.msg
+[0.317s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/srv/BorrowMoney.srv
+[0.317s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/srv/BorrowMoney_Request.msg
+[0.317s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/srv/BorrowMoney_Response.msg
+[0.317s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/srv/SellNovel.srv
+[0.317s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/srv/SellNovel_Request.msg
+[0.317s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/srv/SellNovel_Response.msg
+[0.317s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/ament_index/resource_index/package_run_dependencies/village_interface
+[0.317s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/ament_index/resource_index/parent_prefix_path/village_interface
+[0.317s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/environment/ament_prefix_path.sh
+[0.317s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/environment/ament_prefix_path.dsv
+[0.317s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/environment/path.sh
+[0.317s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/environment/path.dsv
+[0.317s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/local_setup.bash
+[0.317s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/local_setup.sh
+[0.317s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/local_setup.zsh
+[0.318s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/local_setup.dsv
+[0.318s] -- Installing: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/package.dsv
+[0.318s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/ament_index/resource_index/packages/village_interface
+[0.318s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/cmake/export_village_interface__rosidl_generator_cExport.cmake
+[0.318s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/cmake/export_village_interface__rosidl_generator_cExport-noconfig.cmake
+[0.318s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/cmake/export_village_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[0.318s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/cmake/export_village_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.318s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/cmake/export_village_interface__rosidl_generator_cppExport.cmake
+[0.318s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/cmake/export_village_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.318s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/cmake/export_village_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.318s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/cmake/village_interface__rosidl_typesupport_introspection_cExport.cmake
+[0.318s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/cmake/village_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.318s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/cmake/village_interface__rosidl_typesupport_cExport.cmake
+[0.318s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/cmake/village_interface__rosidl_typesupport_cExport-noconfig.cmake
+[0.318s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/cmake/village_interface__rosidl_typesupport_introspection_cppExport.cmake
+[0.318s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/cmake/village_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.318s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/cmake/village_interface__rosidl_typesupport_cppExport.cmake
+[0.318s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/cmake/village_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[0.318s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/cmake/export_village_interface__rosidl_generator_pyExport.cmake
+[0.318s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/cmake/export_village_interface__rosidl_generator_pyExport-noconfig.cmake
+[0.318s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/cmake/rosidl_cmake-extras.cmake
+[0.318s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.318s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.318s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[0.318s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/cmake/ament_cmake_export_targets-extras.cmake
+[0.318s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.318s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.318s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/cmake/village_interfaceConfig.cmake
+[0.318s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/cmake/village_interfaceConfig-version.cmake
+[0.318s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_interface/share/village_interface/package.xml
+[0.319s] Invoked command in '/home/wuling/hpc/ros2_learn/town_ws/build/village_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wuling/hpc/ros2_learn/town_ws/build/village_interface
