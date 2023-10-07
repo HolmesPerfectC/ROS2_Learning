@@ -1,0 +1,26 @@
+[0.010s] Invoking command in '/home/wuling/hpc/ros2_learn/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/home/wuling/hpc/ros2_learn/town_ws/install/village_interface:/home/wuling/hpc/ros2_learn/town_ws/install/village_zhang:/home/wuling/hpc/ros2_learn/town_ws/install/village_wang:/home/wuling/hpc/ros2_learn/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/wuling/hpc/ros2_learn/town_ws/build/village_wang -- -j24 -l24
+[0.037s] [35m[1mConsolidate compiler generated dependencies of target wang2_node[0m
+[0.048s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[5.093s] [100%] [32m[1mLinking CXX executable wang2_node[0m
+[5.354s] [100%] Built target wang2_node
+[5.360s] Invoked command in '/home/wuling/hpc/ros2_learn/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/home/wuling/hpc/ros2_learn/town_ws/install/village_interface:/home/wuling/hpc/ros2_learn/town_ws/install/village_zhang:/home/wuling/hpc/ros2_learn/town_ws/install/village_wang:/home/wuling/hpc/ros2_learn/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/wuling/hpc/ros2_learn/town_ws/build/village_wang -- -j24 -l24
+[5.378s] Invoking command in '/home/wuling/hpc/ros2_learn/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/home/wuling/hpc/ros2_learn/town_ws/install/village_interface:/home/wuling/hpc/ros2_learn/town_ws/install/village_zhang:/home/wuling/hpc/ros2_learn/town_ws/install/village_wang:/home/wuling/hpc/ros2_learn/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --install /home/wuling/hpc/ros2_learn/town_ws/build/village_wang
+[5.384s] -- Install configuration: ""
+[5.384s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
+[5.384s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
+[5.384s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
+[5.385s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv
+[5.385s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/environment/path.sh
+[5.385s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/environment/path.dsv
+[5.385s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/local_setup.bash
+[5.385s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/local_setup.sh
+[5.385s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/local_setup.zsh
+[5.385s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/local_setup.dsv
+[5.385s] -- Installing: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/package.dsv
+[5.385s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/ament_index/resource_index/packages/village_wang
+[5.385s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
+[5.385s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
+[5.385s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/package.xml
+[5.386s] -- Installing: /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/lib/village_wang/wang2_node
+[5.389s] -- Set runtime path of "/home/wuling/hpc/ros2_learn/town_ws/install/village_wang/lib/village_wang/wang2_node" to ""
+[5.391s] Invoked command in '/home/wuling/hpc/ros2_learn/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/home/wuling/hpc/ros2_learn/town_ws/install/village_interface:/home/wuling/hpc/ros2_learn/town_ws/install/village_zhang:/home/wuling/hpc/ros2_learn/town_ws/install/village_wang:/home/wuling/hpc/ros2_learn/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --install /home/wuling/hpc/ros2_learn/town_ws/build/village_wang

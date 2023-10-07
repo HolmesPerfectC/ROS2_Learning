@@ -30,6 +30,8 @@ private:
     // Declaration for server
     rclcpp::Service<village_interface::srv::SellNovel>::SharedPtr sell_server;
 
+    unsigned int novel_price = 1;
+
 
     void novel_callback(const std_msgs::msg::String::SharedPtr novels)
     {
@@ -50,8 +52,11 @@ private:
         // if novels is not enough, wait for queue enough novels for sell
         RCLCPP_INFO(this->get_logger(), "Have Received buy book request, and he pay %d RMB! ", request->money);
 
+        this->get_parameter("novel_price", novel_price);
+
+
         // Caculate novels chapter num that should return customer
-        unsigned int num = (int)request->money/(1.0);
+        unsigned int num = int (request->money / novel_price);
         if (num > novels_queue.size())
         {
             // Wait for enough chapter for sell
@@ -94,6 +99,8 @@ public:
                                                                             std::bind(&SingleNode::sell_novel_callback, this, _1, _2), 
                                                                             rmw_qos_profile_services_default, 
                                                                             sell_novels_callback_group);
+
+        this->declare_parameter<std::int64_t>("novel_price", novel_price);
     }
     
 

@@ -1,0 +1,78 @@
+[0.000000] (-) TimerEvent: {}
+[0.000181] (-) JobUnselected: {'identifier': 'village_interface'}
+[0.000326] (-) JobUnselected: {'identifier': 'village_li'}
+[0.000339] (-) JobUnselected: {'identifier': 'village_zhang'}
+[0.000351] (village_wang) JobQueued: {'identifier': 'village_wang', 'dependencies': OrderedDict([('village_interface', '/home/wuling/hpc/ros2_learn/town_ws/install/village_interface')])}
+[0.000365] (village_wang) JobStarted: {'identifier': 'village_wang'}
+[0.008290] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'cmake'}
+[0.008831] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'build'}
+[0.009225] (village_wang) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wuling/hpc/ros2_learn/town_ws/build/village_wang', '--', '-j24', '-l24'], 'cwd': '/home/wuling/hpc/ros2_learn/town_ws/build/village_wang', 'env': OrderedDict([('HOSTNAME', 'ec1ec4dd5d4a'), ('GIT_ASKPASS', '/home/wuling/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/wuling/hpc/ros2_learn/town_ws/install/village_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/wuling/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/helpers/browser.sh'), ('HOME', '/home/wuling'), ('OLDPWD', '/home/wuling/hpc/ros2_learn'), ('TERM_PROGRAM_VERSION', '1.83.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-8515da54-841d-4c17-8f24-ac5ad1442f43.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/wuling/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/wuling/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/node'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/wuling/hpc/ros2_learn/town_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-7336bc8b-7bf5-4379-a998-e2126b683896.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/home/wuling/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-7336bc8b-7bf5-4379-a998-e2126b683896.sock","/tmp/.X11-unix/X2","/home/wuling/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/home/wuling/tmp/.dockerjm8simzp.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-cb44f14933.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-7336bc8b-7bf5-4379-a998-e2126b683896.sock'), ('AMENT_PREFIX_PATH', '/home/wuling/hpc/ros2_learn/town_ws/install/village_zhang:/home/wuling/hpc/ros2_learn/town_ws/install/village_wang:/home/wuling/hpc/ros2_learn/town_ws/install/village_li:/home/wuling/hpc/ros2_learn/town_ws/install/village_interface:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X2'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/wuling/hpc/ros2_learn/town_ws/build/village_wang'), ('PYTHONPATH', '/home/wuling/hpc/ros2_learn/town_ws/install/village_li/lib/python3.10/site-packages:/home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/wuling/hpc/ros2_learn/town_ws/install/village_interface:/home/wuling/hpc/ros2_learn/town_ws/install/village_zhang:/home/wuling/hpc/ros2_learn/town_ws/install/village_wang:/home/wuling/hpc/ros2_learn/town_ws/install/village_li:/opt/ros/humble')]), 'shell': False}
+[0.099937] (-) TimerEvent: {}
+[0.102457] (village_wang) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o\x1b[0m\n'}
+[0.200016] (-) TimerEvent: {}
+[0.300226] (-) TimerEvent: {}
+[0.400442] (-) TimerEvent: {}
+[0.500722] (-) TimerEvent: {}
+[0.600992] (-) TimerEvent: {}
+[0.701249] (-) TimerEvent: {}
+[0.801506] (-) TimerEvent: {}
+[0.901783] (-) TimerEvent: {}
+[1.002079] (-) TimerEvent: {}
+[1.102320] (-) TimerEvent: {}
+[1.202577] (-) TimerEvent: {}
+[1.302869] (-) TimerEvent: {}
+[1.308042] (village_wang) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[1.308148] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.308186] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.308217] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.308245] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wuling/hpc/ros2_learn/town_ws/src/village_wang/src/wang2.cpp:1\x1b[m\x1b[K:\n'}
+[1.308274] (village_wang) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = unsigned int; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.308305] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wuling/hpc/ros2_learn/town_ws/src/village_wang/src/wang2.cpp:103:47:\x1b[m\x1b[K   required from here\n'}
+[1.308333] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:204:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcall of overloaded \xe2\x80\x98\x1b[01m\x1b[KParameterValue(const unsigned int&)\x1b[m\x1b[K\xe2\x80\x99 is ambiguous\n'}
+[1.308363] (village_wang) StderrLine: {'line': b'  204 |       rclcpp::\x1b[01;31m\x1b[KParameterValue(default_value)\x1b[m\x1b[K,\n'}
+[1.308391] (village_wang) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.308419] (village_wang) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26\x1b[m\x1b[K,\n'}
+[1.308448] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[1.308475] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54\x1b[m\x1b[K,\n'}
+[1.308501] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.308528] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.308555] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.308581] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wuling/hpc/ros2_learn/town_ws/src/village_wang/src/wang2.cpp:1\x1b[m\x1b[K:\n'}
+[1.308608] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:94:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.308636] (village_wang) StderrLine: {'line': b'   94 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const double double_value);\n'}
+[1.308665] (village_wang) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.308693] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:91:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(float)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.308721] (village_wang) StderrLine: {'line': b'   91 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const float double_value);\n'}
+[1.308748] (village_wang) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.308781] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:88:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(int64_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.308810] (village_wang) StderrLine: {'line': b'   88 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const int64_t int_value);\n'}
+[1.308838] (village_wang) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.308867] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:85:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.308894] (village_wang) StderrLine: {'line': b'   85 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const int int_value);\n'}
+[1.308921] (village_wang) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.308948] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:82:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.308976] (village_wang) StderrLine: {'line': b'   82 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const bool bool_value);\n'}
+[1.309003] (village_wang) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.309029] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const rclcpp::ParameterValue&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.309057] (village_wang) StderrLine: {'line': b'   71 | class \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K\n'}
+[1.309085] (village_wang) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.309111] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(rclcpp::ParameterValue&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.402954] (-) TimerEvent: {}
+[1.503223] (-) TimerEvent: {}
+[1.603451] (-) TimerEvent: {}
+[1.703657] (-) TimerEvent: {}
+[1.803869] (-) TimerEvent: {}
+[1.904115] (-) TimerEvent: {}
+[2.004328] (-) TimerEvent: {}
+[2.104586] (-) TimerEvent: {}
+[2.204871] (-) TimerEvent: {}
+[2.305086] (-) TimerEvent: {}
+[2.405303] (-) TimerEvent: {}
+[2.505551] (-) TimerEvent: {}
+[2.605805] (-) TimerEvent: {}
+[2.632505] (village_wang) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/wang2_node.dir/build.make:76: CMakeFiles/wang2_node.dir/src/wang2.cpp.o] Error 1\n'}
+[2.632663] (village_wang) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wang2_node.dir/all] Error 2\n'}
+[2.632736] (village_wang) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.633927] (village_wang) CommandEnded: {'returncode': 2}
+[2.658801] (village_wang) JobEnded: {'identifier': 'village_wang', 'rc': 2}
+[2.669271] (-) EventReactorShutdown: {}

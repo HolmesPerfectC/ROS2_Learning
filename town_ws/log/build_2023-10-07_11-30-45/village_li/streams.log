@@ -1,0 +1,25 @@
+[0.580s] Invoking command in '/home/wuling/hpc/ros2_learn/town_ws/src/village_li': AMENT_PREFIX_PATH=/home/wuling/hpc/ros2_learn/town_ws/install/village_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wuling/hpc/ros2_learn/town_ws/install/village_interface LD_LIBRARY_PATH=/home/wuling/hpc/ros2_learn/town_ws/install/village_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wuling/hpc/ros2_learn/town_ws/build/village_li/prefix_override:/home/wuling/hpc/ros2_learn/town_ws/install/village_li/lib/python3.10/site-packages:/home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/village_li build --build-base /home/wuling/hpc/ros2_learn/town_ws/build/village_li/build install --record /home/wuling/hpc/ros2_learn/town_ws/build/village_li/install.log --single-version-externally-managed
+[0.788s] running egg_info
+[0.788s] writing ../../build/village_li/village_li.egg-info/PKG-INFO
+[0.788s] writing dependency_links to ../../build/village_li/village_li.egg-info/dependency_links.txt
+[0.788s] writing entry points to ../../build/village_li/village_li.egg-info/entry_points.txt
+[0.788s] writing requirements to ../../build/village_li/village_li.egg-info/requires.txt
+[0.788s] writing top-level names to ../../build/village_li/village_li.egg-info/top_level.txt
+[0.789s] reading manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[0.790s] writing manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[0.790s] running build
+[0.790s] running build_py
+[0.790s] copying village_li/li4.py -> /home/wuling/hpc/ros2_learn/town_ws/build/village_li/build/lib/village_li
+[0.790s] running install
+[0.790s] running install_lib
+[0.791s] copying /home/wuling/hpc/ros2_learn/town_ws/build/village_li/build/lib/village_li/li4.py -> /home/wuling/hpc/ros2_learn/town_ws/install/village_li/lib/python3.10/site-packages/village_li
+[0.791s] byte-compiling /home/wuling/hpc/ros2_learn/town_ws/install/village_li/lib/python3.10/site-packages/village_li/li4.py to li4.cpython-310.pyc
+[0.792s] running install_data
+[0.792s] running install_egg_info
+[0.793s] removing '/home/wuling/hpc/ros2_learn/town_ws/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info' (and everything under it)
+[0.793s] Copying ../../build/village_li/village_li.egg-info to /home/wuling/hpc/ros2_learn/town_ws/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info
+[0.794s] running install_scripts
+[0.806s] Installing li3_node script to /home/wuling/hpc/ros2_learn/town_ws/install/village_li/lib/village_li
+[0.806s] Installing li4_node script to /home/wuling/hpc/ros2_learn/town_ws/install/village_li/lib/village_li
+[0.806s] writing list of installed files to '/home/wuling/hpc/ros2_learn/town_ws/build/village_li/install.log'
+[0.822s] Invoked command in '/home/wuling/hpc/ros2_learn/town_ws/src/village_li' returned '0': AMENT_PREFIX_PATH=/home/wuling/hpc/ros2_learn/town_ws/install/village_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wuling/hpc/ros2_learn/town_ws/install/village_interface LD_LIBRARY_PATH=/home/wuling/hpc/ros2_learn/town_ws/install/village_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wuling/hpc/ros2_learn/town_ws/build/village_li/prefix_override:/home/wuling/hpc/ros2_learn/town_ws/install/village_li/lib/python3.10/site-packages:/home/wuling/hpc/ros2_learn/town_ws/install/village_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/village_li build --build-base /home/wuling/hpc/ros2_learn/town_ws/build/village_li/build install --record /home/wuling/hpc/ros2_learn/town_ws/build/village_li/install.log --single-version-externally-managed

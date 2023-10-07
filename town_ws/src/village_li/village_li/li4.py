@@ -23,6 +23,8 @@ class WriterNode(Node):
 
         self.borrow_server = self.create_service(BorrowMoney, "borrow_money", self.borrow_money_callback)
 
+        self.declare_parameter("writer_timer_period", 5)
+
     def borrow_money_callback(self, request, response):
         self.get_logger().info("Have received borrow money request from %s, and account has %d money. " % (request.name, self.account))
         if request.money <= self.account * 0.1:
@@ -37,6 +39,8 @@ class WriterNode(Node):
         return response
 
     def timer_callback(self):
+        timer_period = self.get_parameter("writer_timer_period").get_parameter_value().integer_value
+        self.timer.timer_period_ns = timer_period * (1000 * 1000 * 1000)
         msg = String()
         msg.data = "第%d回：潋滟湖 %d 次偶遇胡艳娘" % (self.count,self.count)
         self.pub_novel.publish(msg)
