@@ -8,6 +8,7 @@ setup.py
 ../../build/village_li/village_li.egg-info/requires.txt
 ../../build/village_li/village_li.egg-info/top_level.txt
 ../../build/village_li/village_li.egg-info/zip-safe
+launch/villiage.launch.py
 resource/village_li
 test/test_copyright.py
 test/test_flake8.py

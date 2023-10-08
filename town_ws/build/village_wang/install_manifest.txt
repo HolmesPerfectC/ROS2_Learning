@@ -1,3 +1,5 @@
+/home/wuling/hpc/ros2_learn/town_ws/install/village_wang/lib/village_wang/wang2_node
+/home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/launch/villiage.launch.py
 /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
 /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
 /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
@@ -13,4 +15,3 @@
 /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
 /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
 /home/wuling/hpc/ros2_learn/town_ws/install/village_wang/share/village_wang/package.xml
-/home/wuling/hpc/ros2_learn/town_ws/install/village_wang/lib/village_wang/wang2_node

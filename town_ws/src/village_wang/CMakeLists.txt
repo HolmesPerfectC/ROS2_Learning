@@ -23,7 +23,7 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
-ament_package()
+
 
 add_executable(wang2_node src/wang2.cpp)
 ament_target_dependencies(wang2_node 
@@ -37,4 +37,7 @@ install(TARGETS
         DESTINATION lib/${PROJECT_NAME}
 )
 
+install(DIRECTORY launch
+        DESTINATION share/${PROJECT_NAME})
 
+ament_package()

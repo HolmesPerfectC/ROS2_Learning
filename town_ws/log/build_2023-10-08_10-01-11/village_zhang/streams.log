@@ -1,0 +1,22 @@
+[0.191s] Invoking command in '/home/wuling/hpc/ros2_learn/town_ws/build/village_zhang': CMAKE_PREFIX_PATH=/home/wuling/hpc/ros2_learn/town_ws/install/village_interface:/home/wuling/hpc/ros2_learn/town_ws/install/village_zhang:/home/wuling/hpc/ros2_learn/town_ws/install/village_wang:/home/wuling/hpc/ros2_learn/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/wuling/hpc/ros2_learn/town_ws/build/village_zhang -- -j24 -l24
+[0.219s] [100%] Built target zhang3_node
+[0.226s] Invoked command in '/home/wuling/hpc/ros2_learn/town_ws/build/village_zhang' returned '0': CMAKE_PREFIX_PATH=/home/wuling/hpc/ros2_learn/town_ws/install/village_interface:/home/wuling/hpc/ros2_learn/town_ws/install/village_zhang:/home/wuling/hpc/ros2_learn/town_ws/install/village_wang:/home/wuling/hpc/ros2_learn/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/wuling/hpc/ros2_learn/town_ws/build/village_zhang -- -j24 -l24
+[0.238s] Invoking command in '/home/wuling/hpc/ros2_learn/town_ws/build/village_zhang': CMAKE_PREFIX_PATH=/home/wuling/hpc/ros2_learn/town_ws/install/village_interface:/home/wuling/hpc/ros2_learn/town_ws/install/village_zhang:/home/wuling/hpc/ros2_learn/town_ws/install/village_wang:/home/wuling/hpc/ros2_learn/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --install /home/wuling/hpc/ros2_learn/town_ws/build/village_zhang
+[0.245s] -- Install configuration: ""
+[0.246s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_zhang/lib/village_zhang/zhang3_node
+[0.246s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_zhang/share/ament_index/resource_index/package_run_dependencies/village_zhang
+[0.246s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_zhang/share/ament_index/resource_index/parent_prefix_path/village_zhang
+[0.247s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_zhang/share/village_zhang/environment/ament_prefix_path.sh
+[0.247s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_zhang/share/village_zhang/environment/ament_prefix_path.dsv
+[0.247s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_zhang/share/village_zhang/environment/path.sh
+[0.247s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_zhang/share/village_zhang/environment/path.dsv
+[0.247s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_zhang/share/village_zhang/local_setup.bash
+[0.247s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_zhang/share/village_zhang/local_setup.sh
+[0.248s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_zhang/share/village_zhang/local_setup.zsh
+[0.248s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_zhang/share/village_zhang/local_setup.dsv
+[0.248s] -- Installing: /home/wuling/hpc/ros2_learn/town_ws/install/village_zhang/share/village_zhang/package.dsv
+[0.250s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_zhang/share/ament_index/resource_index/packages/village_zhang
+[0.250s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_zhang/share/village_zhang/cmake/village_zhangConfig.cmake
+[0.250s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_zhang/share/village_zhang/cmake/village_zhangConfig-version.cmake
+[0.250s] -- Up-to-date: /home/wuling/hpc/ros2_learn/town_ws/install/village_zhang/share/village_zhang/package.xml
+[0.253s] Invoked command in '/home/wuling/hpc/ros2_learn/town_ws/build/village_zhang' returned '0': CMAKE_PREFIX_PATH=/home/wuling/hpc/ros2_learn/town_ws/install/village_interface:/home/wuling/hpc/ros2_learn/town_ws/install/village_zhang:/home/wuling/hpc/ros2_learn/town_ws/install/village_wang:/home/wuling/hpc/ros2_learn/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --install /home/wuling/hpc/ros2_learn/town_ws/build/village_zhang
