@@ -10,6 +10,33 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(std_srvs REQUIRED)
+find_package(rclcpp_components REQUIRED)
+
+include_directories(include)
+
+# Create ament index resource which references the libraries in the binary dir
+set(node_plugins "")
+
+add_library(my_node_like_listener_component SHARED
+  src/my_node_like_listener_component)
+
+target_compile_definitions(my_node_like_listener_component
+  PRIVATE "COMPOSITION_BUILDING_DLL")
+
+ament_target_dependencies(my_node_like_listener_component
+  "rclcpp"
+  "rclcpp_components"
+  "std_msgs")
+
+rclcpp_components_register_nodes(my_node_like_listener_component "my_composition::MyNodeLikeListener")
+
+set(node_plugins "${node_plugins}my_composition::MyNodeLikeListener;$<TARGET_FILE:my_node_like_listener_component>\n")
+
+install(TARGETS
+  my_node_like_listener_component
+  ARCHIVE DESTINATION lib
+  LIBRARY DESTINATION lib
+  RUNTIME DESTINATION bin)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

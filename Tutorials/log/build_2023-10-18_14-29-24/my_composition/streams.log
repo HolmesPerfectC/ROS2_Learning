@@ -1,0 +1,26 @@
+[0.008s] Invoking command in '/home/wuling/hpc/ros2_learn/Tutorials/build/my_composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wuling/hpc/ros2_learn/Tutorials/build/my_composition -- -j24 -l24
+[0.044s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node_like_listener_component.dir/src/my_node_like_listener_component.cpp.o[0m
+[4.326s] [100%] [32m[1mLinking CXX shared library libmy_node_like_listener_component.so[0m
+[4.555s] [100%] Built target my_node_like_listener_component
+[4.560s] Invoked command in '/home/wuling/hpc/ros2_learn/Tutorials/build/my_composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wuling/hpc/ros2_learn/Tutorials/build/my_composition -- -j24 -l24
+[4.585s] Invoking command in '/home/wuling/hpc/ros2_learn/Tutorials/build/my_composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wuling/hpc/ros2_learn/Tutorials/build/my_composition
+[4.590s] -- Install configuration: ""
+[4.590s] -- Installing: /home/wuling/hpc/ros2_learn/Tutorials/install/my_composition/lib/libmy_node_like_listener_component.so
+[4.595s] -- Set runtime path of "/home/wuling/hpc/ros2_learn/Tutorials/install/my_composition/lib/libmy_node_like_listener_component.so" to ""
+[4.595s] -- Up-to-date: /home/wuling/hpc/ros2_learn/Tutorials/install/my_composition/share/ament_index/resource_index/package_run_dependencies/my_composition
+[4.595s] -- Up-to-date: /home/wuling/hpc/ros2_learn/Tutorials/install/my_composition/share/ament_index/resource_index/parent_prefix_path/my_composition
+[4.595s] -- Up-to-date: /home/wuling/hpc/ros2_learn/Tutorials/install/my_composition/share/my_composition/environment/ament_prefix_path.sh
+[4.595s] -- Up-to-date: /home/wuling/hpc/ros2_learn/Tutorials/install/my_composition/share/my_composition/environment/ament_prefix_path.dsv
+[4.595s] -- Up-to-date: /home/wuling/hpc/ros2_learn/Tutorials/install/my_composition/share/my_composition/environment/path.sh
+[4.595s] -- Up-to-date: /home/wuling/hpc/ros2_learn/Tutorials/install/my_composition/share/my_composition/environment/path.dsv
+[4.595s] -- Up-to-date: /home/wuling/hpc/ros2_learn/Tutorials/install/my_composition/share/my_composition/local_setup.bash
+[4.595s] -- Up-to-date: /home/wuling/hpc/ros2_learn/Tutorials/install/my_composition/share/my_composition/local_setup.sh
+[4.595s] -- Up-to-date: /home/wuling/hpc/ros2_learn/Tutorials/install/my_composition/share/my_composition/local_setup.zsh
+[4.595s] -- Up-to-date: /home/wuling/hpc/ros2_learn/Tutorials/install/my_composition/share/my_composition/local_setup.dsv
+[4.595s] -- Up-to-date: /home/wuling/hpc/ros2_learn/Tutorials/install/my_composition/share/my_composition/package.dsv
+[4.595s] -- Up-to-date: /home/wuling/hpc/ros2_learn/Tutorials/install/my_composition/share/ament_index/resource_index/packages/my_composition
+[4.595s] -- Up-to-date: /home/wuling/hpc/ros2_learn/Tutorials/install/my_composition/share/ament_index/resource_index/rclcpp_components/my_composition
+[4.595s] -- Up-to-date: /home/wuling/hpc/ros2_learn/Tutorials/install/my_composition/share/my_composition/cmake/my_compositionConfig.cmake
+[4.595s] -- Up-to-date: /home/wuling/hpc/ros2_learn/Tutorials/install/my_composition/share/my_composition/cmake/my_compositionConfig-version.cmake
+[4.595s] -- Up-to-date: /home/wuling/hpc/ros2_learn/Tutorials/install/my_composition/share/my_composition/package.xml
+[4.597s] Invoked command in '/home/wuling/hpc/ros2_learn/Tutorials/build/my_composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wuling/hpc/ros2_learn/Tutorials/build/my_composition
