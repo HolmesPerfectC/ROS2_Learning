@@ -20,7 +20,7 @@ namespace my_composition
 */
 
 MyNodeLikeListener::MyNodeLikeListener(const rclcpp::NodeOptions & options) 
-: node_(std::make_shared<rclcpp::Node>("my_listener", options))
+: node_(std::make_shared<rclcpp::Node>("my_node_like_listener", options))
 {
     // Create a callback function for when message are received.
     // Variations of this function also exist using, for example, UniquePtr for zero-copy transport.

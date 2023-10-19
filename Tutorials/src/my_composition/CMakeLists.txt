@@ -32,8 +32,21 @@ rclcpp_components_register_nodes(my_node_like_listener_component "my_composition
 
 set(node_plugins "${node_plugins}my_composition::MyNodeLikeListener;$<TARGET_FILE:my_node_like_listener_component>\n")
 
+add_library(my_listener_component SHARED
+  src/my_listener_component)
+target_compile_definitions(my_listener_component
+  PRIVATE "COMPOSITION_BUILDING_DLL")
+ament_target_dependencies(my_listener_component
+  "rclcpp"
+  "rclcpp_components"
+  "std_msgs")
+rclcpp_components_register_nodes(my_listener_component "my_composition::MyListener")
+set(node_plugins "${node_plugins}my_composition::MyListener;$<TARGET_FILE:my_listener_component>\n")
+
+
 install(TARGETS
   my_node_like_listener_component
+  my_listener_component
   ARCHIVE DESTINATION lib
   LIBRARY DESTINATION lib
   RUNTIME DESTINATION bin)
