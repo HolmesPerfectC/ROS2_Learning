@@ -1,4 +1,0 @@
-Invoking command in '/home/wuling/hpc/ros2_learn/town_ws/build/village_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wuling/hpc/ros2_learn/town_ws/build/village_interface -- -j24 -l24
-Invoked command in '/home/wuling/hpc/ros2_learn/town_ws/build/village_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wuling/hpc/ros2_learn/town_ws/build/village_interface -- -j24 -l24
-Invoking command in '/home/wuling/hpc/ros2_learn/town_ws/build/village_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wuling/hpc/ros2_learn/town_ws/build/village_interface
-Invoked command in '/home/wuling/hpc/ros2_learn/town_ws/build/village_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wuling/hpc/ros2_learn/town_ws/build/village_interface

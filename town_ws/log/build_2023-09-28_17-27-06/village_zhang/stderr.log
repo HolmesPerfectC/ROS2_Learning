@@ -1,4 +1,0 @@
-[31mCMake Error at CMakeLists.txt:33 (install):
-  install does not recognize sub-command TARGET
-
-[0m

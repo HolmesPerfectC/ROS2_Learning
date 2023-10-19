@@ -1,8 +1,0 @@
-[ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
-[01m[K/home/wuling/hpc/ros2_learn/town_ws/src/village_wang/src/wang2.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
-    2 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/wang2_node.dir/build.make:76: CMakeFiles/wang2_node.dir/src/wang2.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wang2_node.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

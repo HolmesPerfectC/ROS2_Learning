@@ -1,5 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000214] (-) JobUnselected: {'identifier': 'village_interface'}
-[0.000252] (-) JobUnselected: {'identifier': 'village_li'}
-[0.000264] (-) JobUnselected: {'identifier': 'village_wang'}
-[0.000360] (-) EventReactorShutdown: {}

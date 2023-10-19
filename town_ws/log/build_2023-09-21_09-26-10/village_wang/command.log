@@ -1,6 +1,0 @@
-Invoking command in '/home/wuling/hpc/ros2_learn/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wuling/hpc/ros2_learn/town_ws/src/village_wang -DCMAKE_INSTALL_PREFIX=/home/wuling/hpc/ros2_learn/town_ws/install/village_wang
-Invoked command in '/home/wuling/hpc/ros2_learn/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wuling/hpc/ros2_learn/town_ws/src/village_wang -DCMAKE_INSTALL_PREFIX=/home/wuling/hpc/ros2_learn/town_ws/install/village_wang
-Invoking command in '/home/wuling/hpc/ros2_learn/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wuling/hpc/ros2_learn/town_ws/build/village_wang -- -j24 -l24
-Invoked command in '/home/wuling/hpc/ros2_learn/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wuling/hpc/ros2_learn/town_ws/build/village_wang -- -j24 -l24
-Invoking command in '/home/wuling/hpc/ros2_learn/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wuling/hpc/ros2_learn/town_ws/build/village_wang
-Invoked command in '/home/wuling/hpc/ros2_learn/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wuling/hpc/ros2_learn/town_ws/build/village_wang

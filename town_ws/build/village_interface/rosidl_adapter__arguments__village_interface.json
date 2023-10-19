@@ -1,8 +1,0 @@
-{
-  "package_name": "village_interface",
-  "non_idl_tuples": [
-    "/home/wuling/hpc/ros2_learn/town_ws/src/village_interface:msg/Novel.msg",
-    "/home/wuling/hpc/ros2_learn/town_ws/src/village_interface:srv/BorrowMoney.srv",
-    "/home/wuling/hpc/ros2_learn/town_ws/src/village_interface:srv/SellNovel.srv"
-  ]
-}
