@@ -15,10 +15,10 @@ private:
     rclcpp::Node::SharedPtr node_;
     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr sub_;
 public:
-    COMPOSITION_PUBLIC
+    MYCOMPOSITION_PUBLIC
     explicit MyNodeLikeListener(const rclcpp::NodeOptions & options);
 
-    COMPOSITION_PUBLIC
+    MYCOMPOSITION_PUBLIC
     rclcpp::node_interfaces::NodeBaseInterface::SharedPtr 
     get_node_base_interface() const;
 };

@@ -25,30 +25,30 @@ extern "C"
 
 #if defined _WIN32 || defined __CYGWIN__
   #ifdef __GNUC__
-    #define COMPOSITION_EXPORT __attribute__ ((dllexport))
-    #define COMPOSITION_IMPORT __attribute__ ((dllimport))
+    #define MYCOMPOSITION_EXPORT __attribute__ ((dllexport))
+    #define MYCOMPOSITION_IMPORT __attribute__ ((dllimport))
   #else
-    #define COMPOSITION_EXPORT __declspec(dllexport)
-    #define COMPOSITION_IMPORT __declspec(dllimport)
+    #define MYCOMPOSITION_EXPORT __declspec(dllexport)
+    #define MYCOMPOSITION_IMPORT __declspec(dllimport)
   #endif
-  #ifdef COMPOSITION_BUILDING_DLL
-    #define COMPOSITION_PUBLIC COMPOSITION_EXPORT
+  #ifdef MYCOMPOSITION_BUILDING_DLL
+    #define MYCOMPOSITION_PUBLIC COMPOSITION_EXPORT
   #else
-    #define COMPOSITION_PUBLIC COMPOSITION_IMPORT
+    #define MYCOMPOSITION_PUBLIC COMPOSITION_IMPORT
   #endif
-  #define COMPOSITION_PUBLIC_TYPE COMPOSITION_PUBLIC
-  #define COMPOSITION_LOCAL
+  #define MYCOMPOSITION_PUBLIC_TYPE COMPOSITION_PUBLIC
+  #define MYCOMPOSITION_LOCAL
 #else
-  #define COMPOSITION_EXPORT __attribute__ ((visibility("default")))
-  #define COMPOSITION_IMPORT
+  #define MYCOMPOSITION_EXPORT __attribute__ ((visibility("default")))
+  #define MYCOMPOSITION_IMPORT
   #if __GNUC__ >= 4
-    #define COMPOSITION_PUBLIC __attribute__ ((visibility("default")))
-    #define COMPOSITION_LOCAL  __attribute__ ((visibility("hidden")))
+    #define MYCOMPOSITION_PUBLIC __attribute__ ((visibility("default")))
+    #define MYCOMPOSITION_LOCAL  __attribute__ ((visibility("hidden")))
   #else
-    #define COMPOSITION_PUBLIC
+    #define MYCOMPOSITION_PUBLIC
     #define COMPOSITION_LOCAL
   #endif
-  #define COMPOSITION_PUBLIC_TYPE
+  #define MYCOMPOSITION_PUBLIC_TYPE
 #endif
 
 #ifdef __cplusplus
