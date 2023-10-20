@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "*.py": "python",
+        "chrono": "cpp",
+        "memory": "cpp",
+        "utility": "cpp",
+        "functional": "cpp",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "ios": "cpp",
+        "istream": "cpp"
+    }
+}

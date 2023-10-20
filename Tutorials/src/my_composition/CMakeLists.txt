@@ -18,7 +18,7 @@ include_directories(include)
 set(node_plugins "")
 
 add_library(my_node_like_listener_component SHARED
-  src/my_node_like_listener_component)
+  src/my_node_like_listener_component.cpp)
 
 target_compile_definitions(my_node_like_listener_component
   PRIVATE "COMPOSITION_BUILDING_DLL")
@@ -33,7 +33,7 @@ rclcpp_components_register_nodes(my_node_like_listener_component "my_composition
 set(node_plugins "${node_plugins}my_composition::MyNodeLikeListener;$<TARGET_FILE:my_node_like_listener_component>\n")
 
 add_library(my_listener_component SHARED
-  src/my_listener_component)
+  src/my_listener_component.cpp)
 target_compile_definitions(my_listener_component
   PRIVATE "COMPOSITION_BUILDING_DLL")
 ament_target_dependencies(my_listener_component
@@ -43,10 +43,21 @@ ament_target_dependencies(my_listener_component
 rclcpp_components_register_nodes(my_listener_component "my_composition::MyListener")
 set(node_plugins "${node_plugins}my_composition::MyListener;$<TARGET_FILE:my_listener_component>\n")
 
+add_library(my_talker_component SHARED
+  src/my_talker_component.cpp)
+target_compile_definitions(my_talker_component
+  PRIVATE "COMPOSITION_BUILDING_DLL")
+ament_target_dependencies(my_talker_component
+  "rclcpp"
+  "rclcpp_components"
+  "std_msgs")
+rclcpp_components_register_nodes(my_talker_component "my_composition::MyTalker")
+set(node_plugins "${node_plugins}my_composition::MyTalker;$<TARGET_FILE:my_talker_component>\n")
 
 install(TARGETS
   my_node_like_listener_component
   my_listener_component
+  my_talker_component
   ARCHIVE DESTINATION lib
   LIBRARY DESTINATION lib
   RUNTIME DESTINATION bin)

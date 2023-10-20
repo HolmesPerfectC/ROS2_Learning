@@ -4,7 +4,7 @@
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
 
-namespace my_compositon
+namespace my_composition
 {
 
 class MyTalker : public rclcpp::Node
