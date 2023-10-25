@@ -11,6 +11,7 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(std_srvs REQUIRED)
 find_package(rclcpp_components REQUIRED)
+find_package(example_interfaces REQUIRED)
 
 include_directories(include)
 
@@ -21,7 +22,7 @@ add_library(my_node_like_listener_component SHARED
   src/my_node_like_listener_component.cpp)
 
 target_compile_definitions(my_node_like_listener_component
-  PRIVATE "COMPOSITION_BUILDING_DLL")
+  PRIVATE "MYCOMPOSITION_BUILDING_DLL")
 
 ament_target_dependencies(my_node_like_listener_component
   "rclcpp"
@@ -35,7 +36,7 @@ set(node_plugins "${node_plugins}my_composition::MyNodeLikeListener;$<TARGET_FIL
 add_library(my_listener_component SHARED
   src/my_listener_component.cpp)
 target_compile_definitions(my_listener_component
-  PRIVATE "COMPOSITION_BUILDING_DLL")
+  PRIVATE "MYCOMPOSITION_BUILDING_DLL")
 ament_target_dependencies(my_listener_component
   "rclcpp"
   "rclcpp_components"
@@ -46,7 +47,7 @@ set(node_plugins "${node_plugins}my_composition::MyListener;$<TARGET_FILE:my_lis
 add_library(my_talker_component SHARED
   src/my_talker_component.cpp)
 target_compile_definitions(my_talker_component
-  PRIVATE "COMPOSITION_BUILDING_DLL")
+  PRIVATE "MYCOMPOSITION_BUILDING_DLL")
 ament_target_dependencies(my_talker_component
   "rclcpp"
   "rclcpp_components"
@@ -54,10 +55,35 @@ ament_target_dependencies(my_talker_component
 rclcpp_components_register_nodes(my_talker_component "my_composition::MyTalker")
 set(node_plugins "${node_plugins}my_composition::MyTalker;$<TARGET_FILE:my_talker_component>\n")
 
+
+add_library(my_server_component SHARED
+  src/my_server_component.cpp)
+target_compile_definitions(my_server_component
+  PRIVATE "MYCOMPOSITION_BUILDING_DLL")
+ament_target_dependencies(my_server_component
+  "example_interfaces"
+  "rclcpp"
+  "rclcpp_components")
+rclcpp_components_register_nodes(my_server_component "my_composition::MyServer")
+set(node_plugins "${node_plugins}my_composition::MyServer;$<TARGET_FILE:my_server_component>\n")
+
+
+add_library(my_client_component SHARED
+  src/my_client_component.cpp)
+ament_target_dependencies(my_client_component
+  "example_interfaces"
+  "rclcpp"
+  "rclcpp_components")
+rclcpp_components_register_nodes(my_client_component "my_composition::MyClient")
+set(node_plugins "${node_plugins}my_composition::MyClient;$<TARGET_FILE:my_client_component>\n")
+
+
 install(TARGETS
   my_node_like_listener_component
   my_listener_component
   my_talker_component
+  my_server_component
+  my_client_component
   ARCHIVE DESTINATION lib
   LIBRARY DESTINATION lib
   RUNTIME DESTINATION bin)
