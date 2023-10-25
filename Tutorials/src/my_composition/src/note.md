@@ -61,7 +61,7 @@
      RUNTIME DESTINATION bin)
    ```
 
-   这里将`my_listener_component`库安装到三个目录中，一般`ARCHIVE DESTINATION lib`存放静态库，`LIBRARY DESTINATION lib`存放动态库，`RUNTIME DESTINATION bin`存放可执行文件。
+   `TARGETS`是`install`的关键字，后面跟的是可执行文件或者库，这里是将`my_listener_component`库安装到三个目录中，`ARCHIVE DESTINATION`这三个后面带有`DESTINATION`的也是`install`的关键字，一般`ARCHIVE DESTINATION`存放静态库，`LIBRARY DESTINATION`存放动态库，`RUNTIME DESTINATION`存放可执行文件，这里将静态库和动态库存放到`lib`下，将可执行文件存放到`bin`下。
 
 
 
