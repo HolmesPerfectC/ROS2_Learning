@@ -1,9 +1,25 @@
+
 # Composing multiple nodes in a single process
 
 目标：在一个进程里面运行多个节点
 
-[TOC]
-
+- [Composing multiple nodes in a single process](#composing-multiple-nodes-in-a-single-process)
+  - [Background](#background)
+  - [Run the demos](#run-the-demos)
+    - [Discover available components](#discover-available-components)
+    - [Run-time composition using ROS services with a publisher and subscriber](#run-time-composition-using-ros-services-with-a-publisher-and-subscriber)
+    - [Run-time composition using ROS services with a server and client](#run-time-composition-using-ros-services-with-a-server-and-client)
+    - [Compile-time composition using ROS services](#compile-time-composition-using-ros-services)
+    - [Run-time composition using dlopen](#run-time-composition-using-dlopen)
+    - [composition using  launch actions](#composition-using--launch-actions)
+  - [Advanced Topics](#advanced-topics)
+    - [Unloading components](#unloading-components)
+    - [Remapping container name and namespace](#remapping-container-name-and-namespace)
+    - [Remap component names and namespace](#remap-component-names-and-namespace)
+    - [Passing parameter values into components](#passing-parameter-values-into-components)
+    - [Passing additional arguments into components](#passing-additional-arguments-into-components)
+  - [Composable nodes as shared libraries](#composable-nodes-as-shared-libraries)
+  - [Composing Non-Node Derived Components](#composing-non-node-derived-components)
 
 
 ## Background
