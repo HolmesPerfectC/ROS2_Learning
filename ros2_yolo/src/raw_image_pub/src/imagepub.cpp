@@ -40,6 +40,9 @@ void ImagePub::load_parameter()
     this->declare_parameter<int8_t>("use_image_flag", 2);
     this->declare_parameter<std::string>("video_path", "/home/wuling/hpc/ros2_learn/ros2_yolo/data/test_video.mp4");
 
+
+
+
     image_pub_topic_name = this->get_parameter("image_pub_topic_name").as_string();
     image_path = this->get_parameter("image_path").as_string();
     use_image_flag = this->get_parameter("use_image_flag").as_int();

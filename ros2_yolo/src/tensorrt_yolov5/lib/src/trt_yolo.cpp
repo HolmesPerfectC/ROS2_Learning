@@ -301,6 +301,7 @@ bool Net::detect(const cv::Mat & in_img, float * out_scores, float * out_boxes, 
   } catch (const std::runtime_error & e) {
     return false;
   }
+
   CHECK_CUDA_ERROR(cudaMemcpyAsync(
     out_scores, out_scores_d_.get(), sizeof(float) * getMaxDetections(), cudaMemcpyDeviceToHost,
     stream_));
